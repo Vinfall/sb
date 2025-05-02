@@ -1,9 +1,12 @@
 {
-    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "##": "Dummy template",
     "version": "",
     "description": "",
     "homepage": "",
     "license": "",
+    "suggest": {
+        ".NET": "main/dotnet-sdk"
+    },
     "notes": "",
     "architecture": {
         "64bit": {
