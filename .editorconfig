@@ -1,0 +1,31 @@
+# EditorConfig (is awesome): http://EditorConfig.org
+
+# * top-most EditorConfig file
+root = true
+
+# default style settings
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{json,jsonc}]
+max_line_length = off
+insert_final_newline = false
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.{md,markdown,rmd}]
+max_line_length = off
+# rescue double whitespace as line break
+trim_trailing_whitespace = false
+
+[{.gitattributes,.gitignore}]
+insert_final_newline = true
+
+[COMMIT_EDITMSG]
+max_line_length = off

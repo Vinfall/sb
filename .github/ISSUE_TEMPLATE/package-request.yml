@@ -1,0 +1,47 @@
+name: 📦 Package Request
+description: Request missing package.
+labels: ["package-request"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I have searched in issues/PRs to make sure it's not duplicate.
+          required: true
+  - type: checkboxes
+    attributes:
+      label: Criteria
+      description: I've confirmed the requested package is
+      options:
+        - label: legal
+          required: true
+        - label: moral
+          required: true
+        - label: interestig enough to draw my/your attention
+          required: true
+  - type: input
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Homepage
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Download Link(s)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Boring Metrics
+      description: GitHub star/software review/press coverage etc.
+    validations:
+      required: true

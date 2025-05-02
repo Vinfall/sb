@@ -1,0 +1,19 @@
+name: 🔢 Hash Error
+description: Report broken hash.
+labels: ["bug"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I have used the predefined issue title. (e.g. "xxx@xxx&#58; hash check failed")
+          required: true
+        - label: I' using the latest version of Scoop and corresponding bucket.
+          required: true
+  - type: input
+    attributes:
+      label: Package Name and Version
+      description: name@version of broken package
+      placeholder: e.g. 7zip@21.00 (not '7-Zip')
+    validations:
+      required: true
