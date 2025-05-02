@@ -11,11 +11,15 @@
         {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
             "fileMatch": [
-                "bucket/**/*.json"
+                "bucket/**/*.json",
+                "bucket/dummy.json.template"
             ]
         }
     ],
-    "files.insertFinalNewline": true,
+    "files.associations": {
+        "dummy.json.template": "json",
+        "*.reg": "toml"
+    },
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
