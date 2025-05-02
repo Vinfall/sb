@@ -12,7 +12,7 @@ Developing...
 
 ```pwsh
 scoop bucket add sb https://github.com/Vinfall/sb
-scoop install sb/package
+scoop install sb/neeview-fd
 ```
 
 ## [License](LICENSE)
