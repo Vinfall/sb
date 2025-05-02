@@ -8,6 +8,9 @@ Personal scoop bucket, `sb` for short.
 
 Developing...
 
+- NeeView-FD, smaller than NeeView, requires dotnet-9-desktopruntime
+- Weasel
+
 ## Usage
 
 ```pwsh
