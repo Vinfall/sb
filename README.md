@@ -10,8 +10,8 @@ Developing...
 
 - malware-patch: unlike extras-cn, this uses the bundled version
 - neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
-- spice-guest-tools: NOT recommended, use virtio instead
-- virtio-win
+- spice-guest-tools: NOT recommended, use `virtio-win` instead
+- virtio-win: virtiofs driver
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 
