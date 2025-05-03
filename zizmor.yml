@@ -1,0 +1,8 @@
+rules:
+  unpinned-uses: # intended by upstream
+    ignore:
+      - issue.yml
+      - issue_comment.yml
+      - pr.yml
+      - update.yml
+      - test.yml:30
