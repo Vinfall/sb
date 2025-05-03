@@ -8,9 +8,9 @@ Personal scoop bucket, `sb` for short.
 
 Developing...
 
-- NeeView-FD, smaller than NeeView, requires dotnet-9-desktopruntime
-- spice-guest-tools, use virtio instead
-- Weasel
+- neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
+- spice-guest-tools: NOT recommended, use virtio instead
+- weasel
 
 ## Usage
 
