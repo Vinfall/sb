@@ -8,6 +8,8 @@ Personal scoop bucket, `sb` for short.
 
 Developing...
 
+- garbro-mod: crskycode's fork, official one is listed as `extras/garbro`
+- lunatranslator: x64 only
 - malware-patch: unlike extras-cn, this uses the bundled version
 - neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
