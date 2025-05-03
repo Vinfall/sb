@@ -1,12 +1,14 @@
 on:
   pull_request_target:
-    types: [opened]
+    types: [opened] # dangerous-triggers, see zizmor.yml
 name: PR
 jobs:
   pullRequestHandler:
     name: PullRequestHandler
     permissions:
       contents: write # required for PR?
+    # just between the two of us, still spoofable
+    if: github.actor == 'Vinfall' || github.actor == 'github-actions[bot]'
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4

@@ -6,3 +6,9 @@ rules:
       - pr.yml
       - update.yml
       - test.yml:30
+  dangerous-triggers: # almost always used insecurely, metigated w/ repo protection
+    ignore:
+      - pr.yml:1
+  bot-conditions:
+    ignore:
+      - pr.yml:11
