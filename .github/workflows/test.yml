@@ -1,10 +1,9 @@
-name: Tests
+name: Test
 
 on:
   push:
     branches:
-      - 'main'
-      - 'master'
+      - "main"
   pull_request:
   workflow_dispatch:
 
@@ -14,17 +13,17 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout Bucket
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
           path: my_bucket
       - name: Checkout Scoop
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
         with:
           repository: ScoopInstaller/Scoop
           path: scoop_core
       - name: Init Test Suite
-        uses: potatoqualitee/psmodulecache@main
+        uses: potatoqualitee/psmodulecache@v6
         with:
           modules-to-cache: BuildHelpers
           shell: powershell
@@ -38,17 +37,17 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout Bucket
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
           path: my_bucket
       - name: Checkout Scoop
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
         with:
           repository: ScoopInstaller/Scoop
           path: scoop_core
       - name: Init Test Suite
-        uses: potatoqualitee/psmodulecache@main
+        uses: potatoqualitee/psmodulecache@v6
         with:
           modules-to-cache: BuildHelpers
           shell: pwsh

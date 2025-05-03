@@ -1,0 +1,15 @@
+on:
+  workflow_dispatch:
+  schedule:
+    # run every 8 hours
+    - cron: "20 */8 * * *"
+name: Update
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ScoopInstaller/GithubActions@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: 1

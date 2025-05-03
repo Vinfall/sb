@@ -1,6 +1,6 @@
 # Scoop Bucket
 
-<!-- [![Tests](https://github.com/Vinfall/sb/actions/workflows/ci.yml/badge.svg)](https://github.com/Vinfall/sb/actions/workflows/ci.yml) [![Excavator](https://github.com/Vinfall/sb/actions/workflows/excavator.yml/badge.svg)](https://github.com/Vinfall/sb/actions/workflows/excavator.yml) -->
+<!-- [![Tests](https://github.com/Vinfall/sb/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/sb/actions/workflows/test.yml) [![Excavator](https://github.com/Vinfall/sb/actions/workflows/update.yml/badge.svg)](https://github.com/Vinfall/sb/actions/workflows/update.yml) -->
 
 Personal scoop bucket, `sb` for short.
 

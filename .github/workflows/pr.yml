@@ -1,13 +1,13 @@
 on:
   pull_request_target:
     types: [opened]
-name: Pull Requests
+name: PR
 jobs:
   pullRequestHandler:
     name: PullRequestHandler
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v4
       - name: PullRequestHandler
         uses: ScoopInstaller/GithubActions@main
         env:

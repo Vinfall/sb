@@ -8,8 +8,8 @@
   Read the contributing guide first to save both your and our time.
 -->
 
-Closes #XXXX
+Close #XXX
 <!-- or -->
-Relates to #XXXX
+Related: #XXX
 
 - [ ] I have read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
