@@ -9,8 +9,9 @@ Personal scoop bucket, `sb` for short.
 Developing...
 
 - garbro-mod: crskycode's fork, official one is listed as `extras/garbro`
-- lunatranslator: x64 only
-- malware-patch: unlike extras-cn, this uses the bundled version
+- gdsdecomp: Godot reverse engineering tools
+- lunatranslator: VNR-like translator, x64 only
+- malware-patch: this uses the bundled version, if you prefer unbundled version (cert/exe), use `extras-cn/malware-patch`
 - neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
 - virtio-win(-guest-tools): virtiofs driver and guest tools
