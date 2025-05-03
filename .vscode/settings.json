@@ -1,4 +1,3 @@
-// Configure PSScriptAnalyzer settings
 {
     "[powershell]": {
         "editor.formatOnSave": true
