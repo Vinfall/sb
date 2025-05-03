@@ -5,9 +5,13 @@ name: Issue
 jobs:
   issueHandler:
     name: IssueHandler
+    permissions:
+      contents: read # required for comment?
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: IssueHandler
         uses: ScoopInstaller/GithubActions@main
         if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))

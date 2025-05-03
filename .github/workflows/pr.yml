@@ -5,9 +5,13 @@ name: PR
 jobs:
   pullRequestHandler:
     name: PullRequestHandler
+    permissions:
+      contents: write # required for PR?
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true # required for PR?
       - name: PullRequestHandler
         uses: ScoopInstaller/GithubActions@main
         env:

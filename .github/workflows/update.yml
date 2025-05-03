@@ -7,8 +7,12 @@ name: Update
 jobs:
   update:
     runs-on: windows-latest
+    permissions:
+      contents: write # required to update
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true # required to update
       - uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

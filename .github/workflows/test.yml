@@ -10,16 +10,20 @@ on:
 jobs:
   test_powershell:
     name: WindowsPowerShell
+    permissions:
+      contents: read
     runs-on: windows-latest
     steps:
       - name: Checkout Bucket
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           fetch-depth: 2
           path: my_bucket
       - name: Checkout Scoop
         uses: actions/checkout@v4
         with:
+          persist-credentials: false
           repository: ScoopInstaller/Scoop
           path: scoop_core
       - name: Init Test Suite
