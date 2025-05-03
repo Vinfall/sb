@@ -1,0 +1,14 @@
+{
+    "homepage": "https://fedorapeople.org/groups/virt/virtio-win/",
+    "description": "Virtio Windows driver installer.",
+    "version": "0.1.271-1",
+    "hash": "20a15bc93da585f90b4ca3b315652a9478e4c4a76f444d379b357167d727fee4",
+    "url": "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.271-1/virtio-win-gt-x64.msi",
+    "checkver": {
+        "url": "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/?C=M;O=D",
+        "regex": "virtio-win-((\\d+\\.)+\\d+.*?)\\/"
+    },
+    "autoupdate": {
+        "url": "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-$version/virtio-win-gt-x64.msi"
+    }
+}
