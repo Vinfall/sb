@@ -10,6 +10,7 @@ Developing...
 
 - neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
 - spice-guest-tools: NOT recommended, use virtio instead
+- virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 
 ## Usage
