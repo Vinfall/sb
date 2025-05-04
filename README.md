@@ -11,6 +11,7 @@ Developing...
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - gdsdecomp: Godot reverse engineering tools
+- hikarifield: Hikari Field Client
 - lunatranslator: VNR-like translator, x64 only
 - malware-patch: bundled version, unbundled version (cert+exe) is `extras-cn/malware-patch`
 - neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
