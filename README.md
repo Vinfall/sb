@@ -27,4 +27,6 @@ scoop install sb/neeview-fd
 
 ## [License](LICENSE)
 
-Released into the public domain under the Unlicense.
+Some buckets are adapted/imported from other sources, please refer to the earliest commit comment.
+Unless otherwise noted, my buckets are released into the public domain under the Unlicense.
+Feel free to index/merge/do whatever you want.
