@@ -8,6 +8,7 @@ Personal scoop bucket, `sb` for short.
 
 Developing...
 
+- chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - garbro-mod: crskycode's fork, official one is listed as `extras/garbro`
 - gdsdecomp: Godot reverse engineering tools
 - lunatranslator: VNR-like translator, x64 only
