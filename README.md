@@ -9,15 +9,18 @@ Personal scoop bucket, `sb` for short.
 Developing...
 
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
-- garbro-mod: crskycode's fork, official one is listed as `extras/garbro`
+- garbro-mod: crskycode's fork, original one is `extras/garbro`
 - gdsdecomp: Godot reverse engineering tools
 - lunatranslator: VNR-like translator, x64 only
-- malware-patch: this uses the bundled version, if you prefer unbundled version (cert/exe), use `extras-cn/malware-patch`
+- malware-patch: bundled version, unbundled version (cert+exe) is `extras-cn/malware-patch`
 - neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
-- spice-guest-tools: NOT recommended, use `virtio-win` instead
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
+
+## Deprecated
+
+- spice-guest-tools: NOT recommended, use `virtio-win` instead
 
 ## Usage
 
