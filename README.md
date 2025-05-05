@@ -19,6 +19,13 @@ Developing...
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 
+## Staged
+
+> [!WARNING]
+> These packages are temporary, would get deleted once merged upstream.
+
+- supermium
+
 ## Deprecated
 
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
