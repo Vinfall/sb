@@ -8,6 +8,7 @@ Personal scoop bucket, `sb` for short.
 
 Developing...
 
+- cemu-dev: `games/cemu-dev` w/ normal settings persist and w/o cache persist
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - gdsdecomp: Godot reverse engineering tools
@@ -22,7 +23,7 @@ Developing...
 ## Staged
 
 > [!WARNING]
-> These packages are temporary, would get deleted once merged upstream.
+> These buckets are temporary, would get deleted once merged upstream.
 
 - project64-dev
 - supermium
