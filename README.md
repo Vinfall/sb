@@ -24,6 +24,7 @@ Developing...
 > [!WARNING]
 > These packages are temporary, would get deleted once merged upstream.
 
+- project64-dev
 - supermium
 
 ## Deprecated
