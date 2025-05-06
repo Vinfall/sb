@@ -22,14 +22,7 @@
             "Cemu-Dev"
         ]
     ],
-    "persist": [
-        "controllerProfiles",
-        "graphicPacks",
-        "mlc01",
-        "keys.txt",
-        "settings.xml"
-    ],
-    "notes": "games/cemu-dev is more suitable. Shader cache does NOT persist in this bucket, usually you don't want to upgrade before game completion.",
+    "notes": "games/cemu-dev is recommended unless you hate hacky persist",
     "checkver": {
         "url": "https://github.com/cemu-project/Cemu/releases",
         "regex": "Cemu (?<ver>\\d+\\.\\d+)",

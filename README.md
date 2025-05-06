@@ -8,7 +8,7 @@ Personal scoop bucket, `sb` for short.
 
 Developing...
 
-- cemu-dev: `games/cemu-dev` w/ normal settings persist and w/o cache persist
+- cemu-dev: `games/cemu-dev` w/o persist
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - gdsdecomp: Godot reverse engineering tools
