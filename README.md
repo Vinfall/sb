@@ -10,6 +10,7 @@ Developing...
 
 - cemu-dev: `games/cemu-dev` w/o persist
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
+- contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - gdsdecomp: Godot reverse engineering tools
 - hikarifield: Hikari Field Client
@@ -45,3 +46,5 @@ scoop install sb/neeview-fd
 Some buckets are adapted/imported from other sources, please refer to the earliest commit comment.
 Unless otherwise noted, my buckets are released into the public domain under the Unlicense.
 Feel free to index/merge/do whatever you want.
+
+[ContextMenuManager]: https://github.com/BluePointLilac/ContextMenuManager

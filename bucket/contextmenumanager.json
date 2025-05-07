@@ -1,0 +1,20 @@
+{
+    "version": "3.3.9.2",
+    "description": "Active ContextMenuManager fork, manage the Windows right-click context menu with support of Windows 7-11",
+    "homepage": "https://github.com/Jack251970/ContextMenuManager",
+    "license": "MIT",
+    "url": "https://github.com/Jack251970/ContextMenuManager/releases/download/3.3.9.2/ContextMenuManager.exe",
+    "hash": "e9c7c7d5c8379fb6f530320b01014385be10cea770ad1f6584c216eff22d5e86",
+    "shortcuts": [
+        [
+            "ContextMenuManager.exe",
+            "ContextMenuManager"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Jack251970/ContextMenuManager"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Jack251970/ContextMenuManager/releases/download/$version/ContextMenuManager.exe"
+    }
+}
