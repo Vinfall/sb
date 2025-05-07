@@ -17,17 +17,14 @@
     "shortcuts": [
         [
             "Project64.exe",
-            "Project64 (development)"
+            "Project64-Dev"
         ]
     ],
     "persist": [
         "Config",
-        "Logs",
         "Save",
         "Screenshots",
-        "Textures",
-        "Games",
-        "ROMs"
+        "Textures"
     ],
     "notes": "games/project64-dev. PR: https://github.com/Calinou/scoop-games/pull/1395",
     "checkver": {
