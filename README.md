@@ -4,6 +4,13 @@
 
 Personal scoop bucket, `sb` for short.
 
+## Usage
+
+```pwsh
+scoop bucket add sb https://github.com/Vinfall/sb
+scoop install sb/neeview-fd
+```
+
 ## List
 
 Developing...
@@ -13,34 +20,36 @@ Developing...
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - gdsdecomp: Godot reverse engineering tools
-- hikarifield: Hikari Field Client
 - lunatranslator: VNR-like translator, x64 only
 - malware-patch: bundled version, unbundled version (cert+exe) is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
-- neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
+- neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 
-## Staged
+### Experimental
 
 > [!WARNING]
+> These buckets are NOT audited/tested, they may or may not work.
+> When you use them, you are on your own.
+
+- hikarifield: Hikari Field Client
+- procrastitracker: Windows time tracking application
+- virtio-win-(guest-tools-)?{latest,stable}
+
+### Staged
+
+> [!TIP]
 > These buckets are temporary, would get deleted once merged upstream.
 
 - project64-dev
 - supermium
 
-## Deprecated
+### Deprecated
 
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
-
-## Usage
-
-```pwsh
-scoop bucket add sb https://github.com/Vinfall/sb
-scoop install sb/neeview-fd
-```
 
 ## [License](LICENSE)
 
