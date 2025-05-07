@@ -16,6 +16,7 @@ Developing...
 - hikarifield: Hikari Field Client
 - lunatranslator: VNR-like translator, x64 only
 - malware-patch: bundled version, unbundled version (cert+exe) is `extras-cn/malware-patch`
+- monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than NeeView, requires dotnet-9-desktopruntime
 - virtio-win(-guest-tools): virtiofs driver and guest tools
