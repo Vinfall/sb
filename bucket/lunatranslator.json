@@ -25,6 +25,7 @@
         "translation_record",
         "cache"
     ],
+    "notes": "LunaTranslator now only keeps the latest release assets, hold until CI update or use lunatranslator-latest.",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator.zip"
