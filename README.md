@@ -24,7 +24,6 @@ Developing...
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
-- gdsdecomp: Godot reverse engineering tools
 - lunatranslator: VNR-like translator, x64 only
 - malware-patch: bundled version, unbundled version (cert+exe) is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
@@ -52,7 +51,7 @@ Developing...
 > [!TIP]
 > These buckets are temporary, would get deleted once merged upstream.
 
-- project64-dev
+- gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
 - supermium
 
 ### Deprecated
