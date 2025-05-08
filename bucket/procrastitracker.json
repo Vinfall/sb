@@ -18,5 +18,5 @@
             "/S"
         ]
     },
-    "notes": "This package is not audited and hash would be outdated once new version is available. If you encounter hash error, simply use '-s' to skip verification."
+    "notes": "This package is not audited and hash would be outdated once new version is available. In case of hash error, simply use '-s' to skip verification."
 }
