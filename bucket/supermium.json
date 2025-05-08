@@ -31,7 +31,7 @@
             "--incognito"
         ]
     ],
-    "notes": "cetacea/supermium is recommended unless you hate persist 'User Data'. PR: https://github.com/ScoopInstaller/Extras/pull/15115",
+    "notes": "cetacea/supermium is recommended unless you hate persist 'User Data'.",
     "checkver": {
         "github": "https://github.com/win32ss/supermium",
         "regex": "/releases/tag/(?:v|V)?([\\d.]+(?:-[a-zA-Z0-9]+)?)"

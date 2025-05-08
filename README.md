@@ -30,6 +30,7 @@ Developing...
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
 - procrastitracker: time tracking application
+- supermium: `cetacea/supermium` w/o persist and `--incognito` by default
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
@@ -51,11 +52,9 @@ Developing...
 > [!TIP]
 > These buckets are temporary, would get deleted once merged upstream.
 
-- gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
-- supermium
-
 ### Deprecated
 
+- gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
 
 ## [License](LICENSE)
