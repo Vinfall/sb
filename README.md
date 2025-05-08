@@ -20,6 +20,11 @@ sudo scoop install sb/procrastitracker -g
 
 Developing...
 
+> [!NOTE]
+> Currently under heavy development.
+> As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
+
+- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - cemu-dev: `games/cemu-dev` w/o persist
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
