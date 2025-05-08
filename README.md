@@ -8,7 +8,12 @@ Personal scoop bucket, `sb` for short.
 
 ```pwsh
 scoop bucket add sb https://github.com/Vinfall/sb
+
+scoop info sb/chromium
+scoop download sb/garbro-mod
 scoop install sb/neeview-fd
+scoop uninstall sb/neeview-fd
+sudo scoop install sb/procrastitracker -g
 ```
 
 ## List
@@ -25,6 +30,7 @@ Developing...
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
+- procrastitracker: time tracking application
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
@@ -34,9 +40,11 @@ Developing...
 > [!WARNING]
 > These buckets are NOT audited/tested, they may or may not work.
 > When you use them, you are on your own.
+> Expect hash errors, either fix it yourself or use '-s' to skip verification.
 
 - hikarifield: Hikari Field Client
-- procrastitracker: Windows time tracking application
+- lunatranslator-latest
+- pragtical-rolling: more updated than `extras/pragtical`
 - virtio-win-(guest-tools-)?{latest,stable}
 
 ### Staged
