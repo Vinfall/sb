@@ -48,6 +48,7 @@ Developing...
 > When you use them, you are on your own.
 > Expect hash errors, either fix it yourself or use '-s' to skip verification.
 
+- eka2l1: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
 - lunatranslator-latest
 - pragtical-rolling: more updated than `extras/pragtical`
