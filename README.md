@@ -29,6 +29,7 @@ Developing...
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
+- locale-remulator: successor of Locale-Emulator
 - lunatranslator: VNR-like translator, x64 only
 - malware-patch: bundled version, unbundled version (cert+exe) is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
