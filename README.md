@@ -50,6 +50,7 @@ Developing...
 - eka2l1-latest: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
 - lunatranslator-latest
+- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - pragtical-rolling: more updated than `extras/pragtical`
 - sarasagothic-superttc: SuperTTC variant (24H2+), download only
 - virtio-win-(guest-tools-){latest,stable}
