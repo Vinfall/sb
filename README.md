@@ -24,7 +24,6 @@ Developing...
 > Currently under heavy development.
 > As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
 
-- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - cemu-dev: `games/cemu-dev` w/o persist
 - chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
@@ -61,6 +60,7 @@ Developing...
 
 ### Deprecated
 
+- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
 
