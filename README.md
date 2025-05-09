@@ -30,7 +30,7 @@ Developing...
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - locale-remulator: successor of Locale-Emulator
 - lunatranslator: VNR-like translator, x64 only
-- malware-patch: bundled version, unbundled version (cert+exe) is `extras-cn/malware-patch`
+- malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
@@ -47,11 +47,11 @@ Developing...
 > When you use them, you are on your own.
 > Expect hash errors, either fix it yourself or use '-s' to skip verification.
 
-- eka2l1: Symbian OS/N-Gage emulator
+- eka2l1-latest: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
 - lunatranslator-latest
 - pragtical-rolling: more updated than `extras/pragtical`
-- virtio-win-(guest-tools-)?{latest,stable}
+- virtio-win-(guest-tools-){latest,stable}
 
 ### Staged
 
