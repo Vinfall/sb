@@ -51,6 +51,7 @@ Developing...
 - hikarifield: Hikari Field Client
 - lunatranslator-latest
 - pragtical-rolling: more updated than `extras/pragtical`
+- sarasagothic-superttc: SuperTTC variant (24H2+), download only
 - virtio-win-(guest-tools-){latest,stable}
 
 ### Staged
