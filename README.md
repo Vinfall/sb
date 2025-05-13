@@ -53,6 +53,7 @@ Developing...
 - hikarifield: Hikari Field Client
 - lunatranslator-latest
 - pragtical-rolling: more updated than `extras/pragtical`
+- tsugaru: FM Towns/Marty Emulator
 - virtio-win-(guest-tools-){latest,stable}
 
 ### Staged
