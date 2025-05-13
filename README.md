@@ -34,7 +34,9 @@ Developing...
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
+- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - procrastitracker: time tracking application
+- sarasagothic-superttc: SuperTTC variant (24H2+), download only
 - supermium: `cetacea/supermium` w/o persist and `--incognito` by default
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
@@ -50,9 +52,7 @@ Developing...
 - eka2l1-latest: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
 - lunatranslator-latest
-- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - pragtical-rolling: more updated than `extras/pragtical`
-- sarasagothic-superttc: SuperTTC variant (24H2+), download only
 - virtio-win-(guest-tools-){latest,stable}
 
 ### Staged
