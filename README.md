@@ -29,7 +29,7 @@ Developing...
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - locale-remulator: successor of Locale-Emulator
-- lunatranslator: VNR-like translator, x64 only
+- lunatranslator(-latest): VNR-like translator, x64 only
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
@@ -51,7 +51,6 @@ Developing...
 
 - eka2l1-latest: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
-- lunatranslator-latest
 - pragtical-rolling: more updated than `extras/pragtical`
 - tsugaru: FM Towns/Marty Emulator
 - virtio-win-(guest-tools-){latest,stable}
