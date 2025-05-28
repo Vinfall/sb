@@ -35,6 +35,7 @@ Developing...
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
+- pragtical-rolling: more updated than `extras/pragtical`
 - procrastitracker: time tracking application
 - sarasagothic-superttc: SuperTTC variant (24H2+), download only
 - supermium: `cetacea/supermium` w/o persist and `--incognito` by default
@@ -51,7 +52,6 @@ Developing...
 
 - eka2l1-latest: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
-- pragtical-rolling: more updated than `extras/pragtical`
 - tsugaru: FM Towns/Marty Emulator
 - virtio-win-(guest-tools-){latest,stable}
 
