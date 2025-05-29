@@ -29,7 +29,7 @@ Developing...
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - locale-remulator: successor of Locale-Emulator
-- lunatranslator(-latest): VNR-like translator, x64 Win10 variant only
+- lunatranslator-latest: VNR-like translator, x64 Win10 variant only
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
@@ -64,6 +64,7 @@ Developing...
 
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
+- lunatranslator: breaks from time to time due to upsteam changes, use `sb/lunatranslator-latest` instead, which is guranteed to work
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
 
 ## [License](LICENSE)
