@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > Commands here are for reference only.
-> You should always make sure you understand them well before blindless following this guide.
+> You should always make sure you understand them well before blindly following this guide.
 
 ## bulk-crap-uninstaller
 
