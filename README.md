@@ -62,6 +62,9 @@ Developing...
 
 ### Deprecated
 
+> [!NOTE]
+> If you ever used these buckets, refer to [MIGRATION.md](MIGRATION.md) for migration tips.
+
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
 - lunatranslator: breaks from time to time due to upsteam changes, use `sb/lunatranslator-latest` instead, which is guranteed to work
