@@ -18,10 +18,7 @@ sudo scoop install sb/procrastitracker -g
 
 ## List
 
-Developing...
-
 > [!NOTE]
-> Currently under heavy development.
 > As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
 
 - cemu-dev: `games/cemu-dev` w/o persist
@@ -35,6 +32,7 @@ Developing...
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
+- palemoon-np: use installer instead of portable zip in `extras/palemoon`, download only
 - pragtical-rolling: more updated than `extras/pragtical`
 - procrastitracker: time tracking application
 - sarasagothic-superttc: SuperTTC variant (24H2+), download only
@@ -49,6 +47,10 @@ Developing...
 > These buckets are NOT audited/tested, they may or may not work.
 > When you use them, you are on your own.
 > Expect hash errors, either fix it yourself or use '-s' to skip verification.
+>
+> When using `-s` with sudo, position matters:
+> `sudo scoop install -s sb/pragtical-rolling -g` would skip checksum verification
+> while `sudo scoop install sb/pragtical-rolling -s -g` means *silent*.
 
 - eka2l1-latest: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
