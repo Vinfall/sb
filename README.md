@@ -53,6 +53,7 @@ sudo scoop install sb/procrastitracker -g
 > while `sudo scoop install sb/pragtical-rolling -s -g` means *silent*.
 
 - eka2l1-latest: Symbian OS/N-Gage emulator
+- flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
 - hikarifield: Hikari Field Client
 - tsugaru: FM Towns/Marty Emulator
 - virtio-win-(guest-tools-){latest,stable}
@@ -79,3 +80,4 @@ Unless otherwise noted, my buckets are released into the public domain under the
 Feel free to index/merge/do whatever you want.
 
 [ContextMenuManager]: https://github.com/BluePointLilac/ContextMenuManager
+[clean-flash-builds]: https://github.com/darktohka/clean-flash-builds
