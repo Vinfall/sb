@@ -37,14 +37,14 @@ scoop uninstall sb/gdsdecomp
 scoop install games/gdsdecomp
 ```
 
-## lunatranslator
+## lunatranslator(-latest)
 
 ```powershell
-# migrate config
-mv $env:SCOOP/persist/lunatranslator $env:SCOOP/persist/lunatranslator-latest
+# migrate config, only if you installed sb/lunatranslator-latest
+mv $env:SCOOP/persist/lunatranslator-latest $env:SCOOP/persist/lunatranslator
 
-scoop uninstall sb/lunatranslator
-scoop install sb/lunatranslator-latest
+scoop uninstall sb/lunatranslator sb/lunatranslator-latest
+scoop install extras/lunatranslator
 ```
 
 ## spice-guest-tools
