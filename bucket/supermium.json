@@ -1,16 +1,16 @@
 {
-    "version": "132-r4",
+    "version": "132-r5",
     "description": "Chromium fork for Windows XP/2003 and up",
     "homepage": "https://win32subsystem.live/supermium/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/win32ss/supermium/releases/download/v132-r4/supermium_132_64_nonsetup.zip",
-            "hash": "18ea63c19430200d57647fa8e971c509f4257e19d3c8c19afd25844db780a670"
+            "url": "https://github.com/win32ss/supermium/releases/download/v132-r5/supermium_132_64_nonsetup.zip",
+            "hash": "65e956e8d3ef1c8aae391e05ad975e2a8ada89c6e7bc33aaca72d13b5708c49f"
         },
         "32bit": {
-            "url": "https://github.com/win32ss/supermium/releases/download/v132-r4/supermium_132_32_nonsetup.zip",
-            "hash": "b46345a0a69dff985f7efbe0d47aac6fa4524f60096b875116d3b6a9ebbdf4de"
+            "url": "https://github.com/win32ss/supermium/releases/download/v132-r5/supermium_132_32_nonsetup.zip",
+            "hash": "b3ab0d38409a465bbbde9db57f29efaba1210623e06be251627dbe4b64885b75"
         }
     },
     "extract_dir": "Supermium",
