@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write # required to update
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: true # required to update
       - uses: ScoopInstaller/GithubActions@main
