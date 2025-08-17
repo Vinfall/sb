@@ -30,6 +30,19 @@ scoop uninstall sb/bulk-crap-uninstaller
 scoop install extras/bulk-crap-uninstaller
 ```
 
+## chromium
+
+This originated from `extras/chromium-nosync` but nosync variant was deprecated in the upstream.
+Just choose whatever browser you like. If you have no idea, use `sb/cromite` below.
+
+> [!WARNING]
+> As cromite slightly differs from chromium, it is NOT recommended to import existing Chromium profile.
+
+```powershell
+scoop uninstall sb/chromium
+scoop install sb/cromite
+```
+
 ## gdsdecomp
 
 ```powershell

@@ -1,0 +1,45 @@
+{
+    "version": "139.0.7258.128",
+    "description": "Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy",
+    "homepage": "https://github.com/uazo/cromite",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/uazo/cromite/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/uazo/cromite/releases/download/v139.0.7258.128-4b8cc71d7b35b86cf1789961d727dc4c19d9b28d/chrome-win.zip",
+            "hash": "0d6516e997d81b5f4266a5bfbbc517b7c43e02721be3d491c91e4e6a79641467"
+        }
+    },
+    "extract_dir": "chrome-win",
+    "env_set": {
+        "CHROME_EXECUTABLE": "$dir\\chrome.exe"
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "cromite",
+            "--incognito"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Cromite",
+            "--incognito"
+        ]
+    ],
+    "notes": "extras/cromite is recommended unless you hate persist 'User Data'.",
+    "checkver": {
+        "github": "https://github.com/uazo/cromite",
+        "regex": "/releases/tag/v([\\d.]+)-(?<sha>[0-9a-f]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/uazo/cromite/releases/download/v$version-$matchSha/chrome-win.zip"
+            }
+        }
+    }
+}

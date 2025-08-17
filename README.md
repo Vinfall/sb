@@ -9,7 +9,7 @@ Personal scoop bucket, `sb` for short.
 ```pwsh
 scoop bucket add sb https://github.com/Vinfall/sb
 
-scoop info sb/chromium
+scoop info sb/cromite
 scoop download sb/garbro-mod
 scoop install sb/neeview-fd
 scoop uninstall sb/neeview-fd
@@ -22,8 +22,8 @@ sudo scoop install sb/procrastitracker -g
 > As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
 
 - cemu-dev: `games/cemu-dev` w/o persist
-- chromium: `versions/chromium-nosync` w/o persist and `--incognito` by default
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
+- cromite: `extras/cromite` w/ `--incognito` enabled and persist disabled
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - locale-remulator: successor of Locale-Emulator
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
@@ -68,6 +68,7 @@ sudo scoop install sb/procrastitracker -g
 > If you ever used these buckets, refer to [MIGRATION.md](MIGRATION.md) for migration tips.
 
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
+- chromium: use `extras/cromite`, `sb/cromite` or `extras/ungoogled-chromium` instead
 - gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
 - lunatranslator(-latest): use `extras/lunatranslator` instead
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
