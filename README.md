@@ -30,7 +30,7 @@ sudo scoop install sb/procrastitracker -g
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
-- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
+- np21w: Neko Project 21/W, PC-9800 Series Emulator
 - palemoon-np: use installer instead of portable zip in `extras/palemoon`, download only
 - pragtical-rolling: more updated than `extras/pragtical`
 - procrastitracker: time tracking application
@@ -71,6 +71,7 @@ sudo scoop install sb/procrastitracker -g
 - chromium: use `extras/cromite`, `sb/cromite` or `extras/ungoogled-chromium` instead
 - gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
 - lunatranslator(-latest): use `extras/lunatranslator` instead
+- np21w-beta: removed upstream, use `sb/np21w` instead
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
 
 ## [License](LICENSE)
