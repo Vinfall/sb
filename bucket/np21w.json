@@ -1,20 +1,20 @@
 {
-    "version": "0.86-rev93",
+    "version": "0.86-rev95",
     "homepage": "https://simk98.github.io/np21w/index.html",
     "license": "Freeware",
     "description": "Neko Project 21/W, PC-9800 Series Emulator.",
     "url": [
-        "https://drive.google.com/uc?export=download&id=1rx5qw8OD5aAo6_Po0wPZkJGsPQWZD39G#/np21w-0.86-rev93.zip",
+        "https://drive.google.com/uc?export=download&id=1NJ1fKo2UNOusULmWoKncOvsIQSAqPuiI#/np21w-0.86-rev95.zip",
         "https://drive.google.com/uc?export=download&id=1R7YK4YRZXO5_-owK4if8i_U4BsjTRJpw#/np2tool.zip",
         "https://drive.google.com/uc?export=download&id=18KH-ZV6kCa0j0fg-4JHgSIQsiX8N6whE#/np21wtool.zip"
     ],
     "hash": [
-        "4507ed04198704084aa2ace166e47f1027bcb4ad769a1bc7bc4f40dff45fd162",
+        "b33eb0fee27be03c423ef9c8462daf24b59991cc3e7774be583dfc5a25ee38f4",
         "514ca4cbebaed7ddb0ac758581d6458e319dce8720864102aa9e5d88ead27d6f",
         "8df293272e40fc8db84d2f174798620a276c0e86ea8c13168e90f403d2f06a7c"
     ],
     "extract_dir": [
-        "np21w-0.86-rev93",
+        "np21w-0.86-rev95",
         "",
         ""
     ],
