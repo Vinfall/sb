@@ -7,10 +7,6 @@
         "64bit": {
             "url": "https://github.com/pragtical/pragtical/releases/download/rolling/pragtical-rolling-windows-x86_64.zip",
             "hash": "94b6344663e03837ce6f8210ebbe84dbeb6bb4e2ed7b7f7469389c5a9198fb43"
-        },
-        "32bit": {
-            "url": "https://github.com/pragtical/pragtical/releases/download/rolling/pragtical-rolling-windows-i686.zip",
-            "hash": "522dd892e5ca9c26c990b234f3138123cf4f8f81d2a931a2a5f7fddd84b8b76e"
         }
     },
     "extract_dir": "pragtical",
@@ -37,9 +33,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/pragtical/pragtical/releases/download/rolling/pragtical-rolling-windows-x86_64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/pragtical/pragtical/releases/download/rolling/pragtical-rolling-windows-i686.zip"
             }
         }
     }
