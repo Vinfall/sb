@@ -20,14 +20,14 @@
         [
             "chrome.exe",
             "cromite",
-            "--incognito"
+            "--incognito --disable-features=ExtensionManifestV2Unsupported,ExtensionManifestV2Disabled"
         ]
     ],
     "shortcuts": [
         [
             "chrome.exe",
             "Cromite",
-            "--incognito"
+            "--incognito --disable-features=ExtensionManifestV2Unsupported,ExtensionManifestV2Disabled"
         ]
     ],
     "notes": "extras/cromite is recommended unless you hate persist 'User Data'.",
