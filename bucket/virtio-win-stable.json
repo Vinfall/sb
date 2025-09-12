@@ -8,11 +8,11 @@
     "architecture": {
         "64bit": {
             "url": "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win-gt-x64.msi",
-            "hash": "20a15bc93da585f90b4ca3b315652a9478e4c4a76f444d379b357167d727fee4"
+            "hash": "fafd93cb12b8a5df2668d3459d8b5589e7195a28424f9a40e16b50f462cf8fab"
         },
         "32bit": {
             "url": "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win-gt-x64.msi",
-            "hash": "ec293eec55c177d2f6959cd07860ae1b45f7dbd31fe1c5933f9c3ef816cc2cba"
+            "hash": "e2ee7bc04e24ed3a3c90d573b75e5e809846db3c4de4e78655c1cc77ad2e2a3d"
         }
     },
     "notes": "This package is not audited and hash would be outdated once new version is available. In case of hash error, simply use '-s' to skip verification."
