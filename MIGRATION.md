@@ -83,3 +83,13 @@ scoop download sb/virtio-win
 # this is NOT recommended
 # sudo scoop install sb/virtio-win -g
 ```
+
+## virtio-win(-guest-tools-){latest,stable}
+
+As virtio-win(-guest-tools) is provided as download only source, migration is unnecessary.
+
+```powershell
+# download only, you have to run the installer yourself
+scoop download sb/virtio-win
+scoop download sb/virtio-win-guest-tools
+```

@@ -36,6 +36,7 @@ sudo scoop install sb/procrastitracker -g
 - procrastitracker: time tracking application
 - sarasagothic-superttc: SuperTTC variant (24H2+), download only
 - supermium: `cetacea/supermium` w/o persist and `--incognito` by default
+- tsugaru: FM Towns/Marty Emulator
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
@@ -54,8 +55,6 @@ sudo scoop install sb/procrastitracker -g
 - eka2l1-latest: Symbian OS/N-Gage emulator
 - flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
 - hikarifield: Hikari Field Client
-- tsugaru: FM Towns/Marty Emulator
-- virtio-win-(guest-tools-){latest,stable}
 
 ### Staged
 
@@ -73,6 +72,7 @@ sudo scoop install sb/procrastitracker -g
 - lunatranslator(-latest): use `extras/lunatranslator` instead
 - np21w-beta: removed upstream, use `sb/np21w` instead
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
+- virtio-win(-guest-tools-){latest,stable}: use `sb/virtio-win(-guest-tools)` instead
 
 ## [License](LICENSE)
 
