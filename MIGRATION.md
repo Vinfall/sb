@@ -84,12 +84,23 @@ scoop download sb/virtio-win
 # sudo scoop install sb/virtio-win -g
 ```
 
-## virtio-win(-guest-tools-){latest,stable}
+## Download only
 
-As virtio-win(-guest-tools) is provided as download only source, migration is unnecessary.
+> [!NOTE]
+> Migration is unnecessary as these buckets are download only.
+
+### virtio-win(-guest-tools-){latest,stable}
 
 ```powershell
 # download only, you have to run the installer yourself
 scoop download sb/virtio-win
 scoop download sb/virtio-win-guest-tools
 ```
+
+### sarasagothic-superttc
+
+```powershell
+# download only, you have to unpack & install for all users yourself
+scoop download sb/sarasa-superttc
+```
+w

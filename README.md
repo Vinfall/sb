@@ -34,7 +34,7 @@ sudo scoop install sb/procrastitracker -g
 - palemoon-np: use installer instead of portable zip in `extras/palemoon`, download only
 - pragtical-rolling: more updated than `extras/pragtical`
 - procrastitracker: time tracking application
-- sarasagothic-superttc: SuperTTC variant (24H2+), download only
+- sarasa-superttc: SuperTTC variant (24H2+), download only
 - supermium: `cetacea/supermium` w/o persist and `--incognito` by default
 - tsugaru: FM Towns/Marty Emulator
 - virtio-win(-guest-tools): virtiofs driver and guest tools
