@@ -40,6 +40,7 @@ sudo scoop install sb/procrastitracker -g
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
+- wumt: [winUpdateMiniTool][winUpdateMiniTool]
 
 ### Experimental
 
@@ -82,3 +83,4 @@ Feel free to index/merge/do whatever you want.
 
 [ContextMenuManager]: https://github.com/BluePointLilac/ContextMenuManager
 [clean-flash-builds]: https://github.com/darktohka/clean-flash-builds
+[winUpdateMiniTool]: https://github.com/sergiye/winUpdateMiniTool
