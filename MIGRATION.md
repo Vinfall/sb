@@ -72,7 +72,7 @@ scoop install sb/np21w
 
 ## spice-guest-tools
 
-This is NOT directly a migration, but use another different (and better) tool instead.
+This is NOT directly a migration, but use another (read: better) tool instead.
 
 ```powershell
 sudo scoop uninstall sb/spice-guest-tools
@@ -100,7 +100,6 @@ scoop download sb/virtio-win-guest-tools
 ### sarasagothic-superttc
 
 ```powershell
-# download only, you have to unpack & install for all users yourself
+# download only, you have to unpack & INSTALL FOR ALL USERS yourself
 scoop download sb/sarasa-superttc
 ```
-w
