@@ -1,10 +1,10 @@
 {
-    "version": "1.0.9390",
+    "version": "1.0.9394",
     "description": "Windows Update Mini Tool is a tool to manage updates of Microsoft products on the Windows operating system",
     "homepage": "https://github.com/sergiye/winUpdateMiniTool",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/sergiye/winUpdateMiniTool/releases/download/1.0.9390/winUpdateMiniTool.zip",
-    "hash": "560f086057874fde7f6b7a2d9cd95b81841024c6b0faee65ceb727b2fe4efed0",
+    "url": "https://github.com/sergiye/winUpdateMiniTool/releases/download/1.0.9394/winUpdateMiniTool.zip",
+    "hash": "03571d8eaac6cb1bf5a9fb1d8867f86f5c361806795917fb0332100a4c7987d3",
     "bin": "winUpdateMiniTool.exe",
     "shortcuts": [
         [
