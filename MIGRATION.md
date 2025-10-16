@@ -60,16 +60,6 @@ scoop uninstall sb/lunatranslator sb/lunatranslator-latest
 scoop install extras/lunatranslator
 ```
 
-## np21w-beta
-
-```powershell
-# migrate config
-mv $env:SCOOP/persist/np21w-beta $env:SCOOP/persist/np21w
-
-scoop uninstall sb/np21w-beta
-scoop install sb/np21w
-```
-
 ## spice-guest-tools
 
 This is NOT directly a migration, but use another (read: better) tool instead.
