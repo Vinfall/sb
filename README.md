@@ -23,7 +23,7 @@ sudo scoop install sb/procrastitracker -g
 
 - cemu-dev: `games/cemu-dev` w/o persist
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
-- cromite: `extras/cromite` w/ `--incognito` enabled and persist disabled
+- cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist disabled
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - locale-remulator: successor of Locale-Emulator
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
@@ -33,7 +33,6 @@ sudo scoop install sb/procrastitracker -g
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
 - palemoon-np: use installer instead of portable zip in `extras/palemoon`, download only
-- pragtical-rolling: more updated than `extras/pragtical`
 - procrastitracker: time tracking application
 - sarasa-superttc: SuperTTC variant (24H2+), download only
 - supermium: `cetacea/supermium` w/o persist and `--incognito` by default
@@ -62,6 +61,9 @@ sudo scoop install sb/procrastitracker -g
 
 > [!TIP]
 > These buckets are temporary, would get deleted once merged upstream.
+
+- mame
+- pragtical-rolling: more updated than `extras/pragtical`
 
 ### Deprecated
 
