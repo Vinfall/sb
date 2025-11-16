@@ -47,11 +47,7 @@ sudo scoop install sb/procrastitracker -g
 > [!WARNING]
 > These buckets are NOT audited/tested, they may or may not work.
 > When you use them, you are on your own.
-> Expect hash errors, either fix it yourself or use '-s' to skip verification.
->
-> When using `-s` with sudo, position matters:
-> `sudo scoop install -s sb/pragtical-rolling -g` would skip checksum verification
-> while `sudo scoop install sb/pragtical-rolling -s -g` means *silent*.
+> Expect hash errors, either fix it yourself or use `scoop install -s` to skip verification.
 
 - eka2l1-latest: Symbian OS/N-Gage emulator
 - flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
@@ -63,7 +59,6 @@ sudo scoop install sb/procrastitracker -g
 > These buckets are temporary, would get deleted once merged upstream.
 
 - mame
-- pragtical-rolling: more updated than `extras/pragtical`
 
 ### Deprecated
 
@@ -72,8 +67,9 @@ sudo scoop install sb/procrastitracker -g
 
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - chromium: use `extras/cromite`, `sb/cromite` or `extras/ungoogled-chromium` instead
-- gdsdecomp: Godot reverse engineering tools, merged in `games/gdsdecomp`
+- gdsdecomp: Godot reverse engineering tools, merged as `games/gdsdecomp`
 - lunatranslator(-latest): use `extras/lunatranslator` instead
+- pragtical-rolling: rolling version of `extras/pragtical`, merged as `versions/pragtical-rolling`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
 - virtio-win(-guest-tools-){latest,stable}: use `sb/virtio-win(-guest-tools)` instead
 

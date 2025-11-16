@@ -60,6 +60,13 @@ scoop uninstall sb/lunatranslator sb/lunatranslator-latest
 scoop install extras/lunatranslator
 ```
 
+## pragtical-rolling
+
+```powershell
+scoop uninstall sb/pragtical-rolling
+scoop install versions/pragtical-rolling
+```
+
 ## spice-guest-tools
 
 This is NOT directly a migration, but use another (read: better) tool instead.
