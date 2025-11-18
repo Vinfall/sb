@@ -58,8 +58,6 @@ sudo scoop install sb/procrastitracker -g
 > [!TIP]
 > These buckets are temporary, would get deleted once merged upstream.
 
-- mame
-
 ### Deprecated
 
 > [!NOTE]
