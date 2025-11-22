@@ -1,4 +1,3 @@
-# Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
@@ -11,3 +10,5 @@ updates:
       - dependencies
     commit-message:
       prefix: ci
+    cooldown:
+      default-days: 3
