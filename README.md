@@ -25,6 +25,7 @@ sudo scoop install sb/procrastitracker -g
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
+- jigmo: successor of hanazono, download only
 - locale-remulator: successor of Locale-Emulator
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
