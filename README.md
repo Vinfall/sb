@@ -1,6 +1,6 @@
 # Scoop Bucket
 
-[![Test](https://github.com/Vinfall/sb/actions/workflows/test.yml/badge.svg)](https://github.com/Vinfall/sb/actions/workflows/test.yml) [![Update](https://github.com/Vinfall/sb/actions/workflows/update.yml/badge.svg)](https://github.com/Vinfall/sb/actions/workflows/update.yml)
+[![Test][test]][test-ci] [![Update][update]][update-ci]
 
 Personal scoop bucket, `sb` for short.
 
@@ -78,6 +78,10 @@ Some buckets are adapted/imported from other sources, please refer to the earlie
 Unless otherwise noted, my buckets are released into the public domain under the Unlicense.
 Feel free to index/merge/do whatever you want.
 
+[test]: https://github.com/Vinfall/sb/actions/workflows/test.yml/badge.svg
+[test-ci]: https://github.com/Vinfall/sb/actions/workflows/test.yml
+[update]: https://github.com/Vinfall/sb/actions/workflows/update.yml/badge.svg
+[update-ci]: https://github.com/Vinfall/sb/actions/workflows/update.yml
 [ContextMenuManager]: https://github.com/BluePointLilac/ContextMenuManager
 [clean-flash-builds]: https://github.com/darktohka/clean-flash-builds
 [winUpdateMiniTool]: https://github.com/sergiye/winUpdateMiniTool
