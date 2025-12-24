@@ -24,6 +24,7 @@ sudo scoop install sb/procrastitracker -g
 - cemu-dev: `games/cemu-dev` w/o persist
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
+- eden: use MinGW PGO build instead of MSVC in `games/eden`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - jigmo: successor of hanazono, download only
 - locale-remulator: successor of Locale-Emulator
