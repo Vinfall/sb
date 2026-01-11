@@ -22,7 +22,13 @@
             "SteamCloudFileManager"
         ]
     ],
-    "persist": "backups",
+    "pre_install": [
+        "New-Item -Type File -Path \"$dir\\config.toml\""
+    ],
+    "persist": [
+        "config.toml",
+        "backups"
+    ],
     "notes": "ARM64 is unsupported due to Steamworks SDK limitation.",
     "checkver": "github",
     "autoupdate": {
