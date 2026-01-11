@@ -37,7 +37,6 @@ sudo scoop install sb/procrastitracker -g
 - palemoon-np: use installer instead of portable zip in `extras/palemoon`, download only
 - procrastitracker: time tracking application
 - sarasa-superttc: SuperTTC variant (24H2+), download only
-- steamcloudfilemanager: Cross-platform GUI for Steam Cloud
 - supermium: `cetacea/supermium` w/o persist and `--incognito` by default
 - tsugaru: FM Towns/Marty Emulator
 - virtio-win(-guest-tools): virtiofs driver and guest tools
@@ -72,6 +71,7 @@ sudo scoop install sb/procrastitracker -g
 - lunatranslator(-latest): use `extras/lunatranslator` instead
 - pragtical-rolling: use `versions/pragtical-rolling` instead
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
+- steamcloudfilemanager: download binaries from upstream instead
 - virtio-win(-guest-tools-){latest,stable}: use `sb/virtio-win(-guest-tools)` instead
 
 ## [License](LICENSE)

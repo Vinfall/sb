@@ -100,3 +100,10 @@ scoop download sb/virtio-win-guest-tools
 # download only, you have to unpack & INSTALL FOR ALL USERS yourself
 scoop download sb/sarasa-superttc
 ```
+
+### steamcloudfilemanager
+
+Not packaged elsewhere, you have to download from [SteamCloudFileManager][SteamCloudFileManager] instead.
+The program has auto update so usually you only need to do it once.
+
+[SteamCloudFileManager]: https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/latest
