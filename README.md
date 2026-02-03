@@ -21,6 +21,7 @@ sudo scoop install sb/procrastitracker -g
 > [!NOTE]
 > As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
 
+- assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
 - cemu-dev: `games/cemu-dev` w/o persist
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
