@@ -19,7 +19,7 @@ sudo scoop install sb/procrastitracker -g
 ## List
 
 > [!NOTE]
-> As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
+> As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed. For the same reason, it's advised to enable `autoSquash` and `autoStash` in git-{pull,rebase} config.
 
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
 - cemu-dev: `games/cemu-dev` w/o persist
@@ -32,13 +32,13 @@ sudo scoop install sb/procrastitracker -g
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
-- neeview-fd: smaller than `extras/neeview`, requires dotnet-9-desktopruntime
-- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
+- neeview-fd: smaller than `extras/neeview`, requires dotnet-10-desktopruntime
+- np21w(-beta): Neko Project 21/W, PC9800 Series Emulator
 - nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
-- palemoon-np: use installer instead of portable zip in `extras/palemoon`, download only
+- palemoon-np: non-portable version of `extras/palemoon`, download only
 - procrastitracker: time tracking application
 - sarasa-superttc: SuperTTC variant (24H2+), download only
-- supermium: `cetacea/supermium` w/o persist and `--incognito` by default
+- supermium: `cetacea/supermium` w/ `--incognito` and persist disabled
 - tsugaru: FM Towns/Marty Emulator
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
@@ -48,7 +48,7 @@ sudo scoop install sb/procrastitracker -g
 ### Experimental
 
 > [!WARNING]
-> These buckets are NOT audited/tested, they may or may not work.
+> NOT audited/tested!
 > When you use them, you are on your own.
 > Expect hash errors, either fix it yourself or use `scoop install -s` to skip verification.
 
