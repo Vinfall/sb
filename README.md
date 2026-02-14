@@ -33,7 +33,7 @@ sudo scoop install sb/procrastitracker -g
 - monitorian: multi-screen brightness adjustment tool
 - mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
 - neeview-fd: smaller than `extras/neeview`, requires dotnet-10-desktopruntime
-- np21w(-beta): Neko Project 21/W, PC9800 Series Emulator
+- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
 - palemoon-np: non-portable version of `extras/palemoon`, download only
 - procrastitracker: time tracking application
