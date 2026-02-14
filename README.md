@@ -26,7 +26,7 @@ sudo scoop install sb/procrastitracker -g
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
 - eden: use MinGW PGO build instead of MSVC in `games/eden`
-- garbro-mod: YuriSizuku's fork, original one is `extras/garbro`
+- garbro-mod: crskycode's fork, original one is `extras/garbro`
 - jigmo: successor of hanazono, download only
 - locale-remulator: successor of Locale-Emulator
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
@@ -68,7 +68,6 @@ sudo scoop install sb/procrastitracker -g
 
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - chromium: use `extras/cromite`, `sb/cromite` or `extras/ungoogled-chromium` instead
-- crskycode-garbro-mod: migrated automatically
 - gdsdecomp: use `games/gdsdecomp` instead
 - lunatranslator(-latest): use `extras/lunatranslator` instead
 - pragtical-rolling: use `versions/pragtical-rolling` instead

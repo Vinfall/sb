@@ -43,18 +43,6 @@ scoop uninstall sb/chromium
 scoop install sb/cromite
 ```
 
-## garbro-mod
-
-`sb/crskycode-garbro-mod` originated from `extras/garbro` but the author deleted its GitHub account.
-As a result, `sb/garbro-mod` now targets YuriSizuku'fork.
-
-You can install the original version if you don't trust the new fork:
-
-```powershell
-scoop uninstall sb/garbro-mod
-scoop install extras/garbro
-```
-
 ## gdsdecomp
 
 ```powershell
