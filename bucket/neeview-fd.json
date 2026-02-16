@@ -1,13 +1,13 @@
 {
-    "version": "44.1",
+    "version": "45.2",
     "description": "Image viewer that allows you to browse images in folders like a book.",
     "homepage": "https://neelabo.github.io/NeeView",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/neelabo/NeeView/releases/download/44.1/NeeView44.1-fd.zip",
-            "hash": "bbd243dacb44228c3c30cc9f34d85ed07580eb531509220bc68238baf29a7eb4",
-            "extract_dir": "NeeView44.1-fd"
+            "url": "https://github.com/neelabo/NeeView/releases/download/45.2/NeeView45.2-fd.zip",
+            "hash": "93f7fcf0093877cb279bfbe0ab94cb522730cb5a01ec699a8881be25379d52bc",
+            "extract_dir": "NeeView45.2-fd"
         }
     },
     "suggest": {
