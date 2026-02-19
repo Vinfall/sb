@@ -25,6 +25,7 @@ sudo scoop install sb/procrastitracker -g
 - cemu-dev: `games/cemu-dev` w/o persist
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
+- dotnet-{8,9,10}-desktop-runtime: .NET 8/9/10 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk`, download only
 - eden: use MinGW PGO build instead of MSVC in `games/eden`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - jigmo: successor of hanazono, download only
