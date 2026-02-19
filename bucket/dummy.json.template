@@ -5,9 +5,9 @@
     "homepage": "",
     "license": "",
     "suggest": {
-        ".NET": "main/dotnet-sdk"
+        "dotnet-10-desktop-runtime": "sb/dotnet-10-desktop-runtime"
     },
-    "notes": "",
+    "notes": "Dotnet-10-desktop-runtime is required",
     "architecture": {
         "64bit": {
             "url": "",
