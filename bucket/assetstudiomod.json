@@ -5,6 +5,10 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.19.0/AssetStudioModGUI_net9_win64.zip",
     "hash": "acba8d024fbcb625b8f6a4cbc9e3c83e6274abb637d1a11c3c0615a9d45305af",
+    "suggest": {
+        "dotnet-9-desktop-runtime": "sb/dotnet-9-desktop-runtime"
+    },
+    "notes": "Dotnet-9-desktop-runtime is required.",
     "extract_dir": [
         "AssetStudioModGUI_net9_win64",
         "",

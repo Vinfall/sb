@@ -22,6 +22,7 @@ sudo scoop install sb/procrastitracker -g
 > As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed. For the same reason, it's advised to enable `autoSquash` and `autoStash` in git-{pull,rebase} config.
 
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
+- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktop-runtime
 - cemu-dev: `games/cemu-dev` w/o persist
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
@@ -32,8 +33,8 @@ sudo scoop install sb/procrastitracker -g
 - locale-remulator: successor of Locale-Emulator
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
-- mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktopruntime
-- neeview-fd: smaller than `extras/neeview`, requires dotnet-10-desktopruntime
+- mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktop-runtime
+- neeview-fd: smaller than `extras/neeview`
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
 - palemoon-np: non-portable version of `extras/palemoon`, download only
@@ -67,7 +68,6 @@ sudo scoop install sb/procrastitracker -g
 > [!NOTE]
 > If you ever used these buckets, refer to [MIGRATION.md](MIGRATION.md) for migration tips.
 
-- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktopruntime
 - chromium: use `extras/cromite`, `sb/cromite` or `extras/ungoogled-chromium` instead
 - gdsdecomp: use `games/gdsdecomp` instead
 - lunatranslator(-latest): use `extras/lunatranslator` instead

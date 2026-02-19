@@ -23,13 +23,6 @@ gsudo config PathPrecedence --global True
 sudo config --enable normal
 ```
 
-## bulk-crap-uninstaller
-
-```powershell
-scoop uninstall sb/bulk-crap-uninstaller
-scoop install extras/bulk-crap-uninstaller
-```
-
 ## chromium
 
 This originated from `extras/chromium-nosync` but nosync variant was deprecated in the upstream.
