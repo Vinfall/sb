@@ -19,7 +19,7 @@
     },
     "checkver": {
         "url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",
-        "jsonpath": "$..releases-index[?(@.support-phase == 'active')].latest-runtime",
+        "jsonpath": "$..releases-index[?(@.channel-version == '9.0')].latest-runtime",
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
