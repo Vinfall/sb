@@ -7,6 +7,9 @@ Personal scoop bucket, `sb` for short.
 ## Usage
 
 ```pwsh
+# enable autostash
+scoop config autostash_on_conflict true
+# add this bucket
 scoop bucket add sb https://github.com/Vinfall/sb
 
 scoop info sb/cromite
@@ -19,7 +22,7 @@ sudo scoop install sb/procrastitracker -g
 ## List
 
 > [!NOTE]
-> As I usually test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed. For the same reason, it's advised to enable `autoSquash` and `autoStash` in git-{pull,rebase} config.
+> As I only test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
 
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktop-runtime
