@@ -26,14 +26,11 @@ sudo config --enable normal
 ## chromium
 
 This originated from `extras/chromium-nosync` but nosync variant was deprecated in the upstream.
-Just choose whatever browser you like. If you have no idea, use `sb/cromite` below.
-
-> [!WARNING]
-> As cromite slightly differs from chromium, it is NOT recommended to import existing Chromium profile.
+Just choose whatever browser you like. If you have no idea, use `extras/chromium`.
 
 ```powershell
 scoop uninstall sb/chromium
-scoop install sb/cromite
+scoop install extras/chromium
 ```
 
 ## gdsdecomp

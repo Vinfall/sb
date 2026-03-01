@@ -71,13 +71,15 @@ sudo scoop install sb/procrastitracker -g
 > [!NOTE]
 > If you ever used these buckets, refer to [MIGRATION.md](MIGRATION.md) for migration tips.
 
-- chromium: use `extras/cromite`, `sb/cromite` or `extras/ungoogled-chromium` instead
-- gdsdecomp: use `games/gdsdecomp` instead
-- lunatranslator(-latest): use `extras/lunatranslator` instead
-- pragtical-rolling: use `versions/pragtical-rolling` instead
+Alternatives TL;DR:
+
+- chromium: `extras/chromium`
+- gdsdecomp: `games/gdsdecomp`
+- lunatranslator(-latest): `extras/lunatranslator`
+- pragtical-rolling: `versions/pragtical-rolling`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
-- steamcloudfilemanager: download binaries from upstream instead
-- virtio-win(-guest-tools-){latest,stable}: use `sb/virtio-win(-guest-tools)` instead
+- steamcloudfilemanager: download binaries from upstream
+- virtio-win(-guest-tools-){latest,stable}: `sb/virtio-win(-guest-tools)`
 
 ## [License](LICENSE)
 
