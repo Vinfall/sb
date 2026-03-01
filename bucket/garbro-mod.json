@@ -1,10 +1,10 @@
 {
-    "version": "1.0.1.8",
+    "version": "1.0.2.0",
     "description": "Visual Novels resource browser (crskycode's fork)",
     "homepage": "https://github.com/crskycode/GARbro",
     "license": "MIT",
-    "url": "https://github.com/crskycode/GARbro/releases/download/GARbro-Mod-1.0.1.8/GARbro-Mod-1.0.1.8.zip",
-    "hash": "3f84e44e0ed7d889af504967890fcb7950de33380d55aabebb832757b5519e0c",
+    "url": "https://github.com/crskycode/GARbro/releases/download/GARbro-Mod-1.0.2.0/GARbro-Mod-1.0.2.0.zip",
+    "hash": "933a6ea53174ae10081a0f3b4f83e2ab080d58942c3a9170a7f540d4b9e2d351",
     "bin": [
         [
             "GARbro.Console.exe",
@@ -17,9 +17,7 @@
             "GARbro-Mod"
         ]
     ],
-    "persist": [
-        "GameData"
-    ],
+    "persist": "GameData",
     "checkver": {
         "url": "https://github.com/crskycode/GARbro/tags",
         "regex": "tag/GARbro-Mod-(.+?)\""
