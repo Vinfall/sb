@@ -36,7 +36,7 @@ sudo scoop install sb/procrastitracker -g
 - locale-remulator: successor of Locale-Emulator
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - monitorian: multi-screen brightness adjustment tool
-- mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-7-desktop-runtime
+- mousejiggler: more updated than `extras/mousejiggler`, requires dotnet-10-desktop-runtime
 - neeview-fd: smaller than `extras/neeview`
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
