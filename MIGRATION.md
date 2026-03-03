@@ -25,7 +25,7 @@ sudo config --enable normal
 
 ## chromium
 
-This originated from `extras/chromium-nosync` but nosync variant was deprecated in the upstream.
+This originated from `extras/chromium-nosync` but nosync variant was deprecated upstream.
 Just choose whatever browser you like. If you have no idea, use `extras/chromium`.
 
 ```powershell
@@ -59,7 +59,7 @@ scoop install versions/pragtical-rolling
 
 ## spice-guest-tools
 
-This is NOT directly a migration, but use another (read: better) tool instead.
+This is NOT directly a migration, but install another (read: better) tool instead.
 
 ```powershell
 sudo scoop uninstall sb/spice-guest-tools
@@ -79,6 +79,8 @@ scoop download sb/virtio-win
 ### virtio-win(-guest-tools-){latest,stable}
 
 ```powershell
+scoop cache rm sb/virtio-win-latest sb/virtio-win-stable sb/virtio-win-guest-tools-latest sb/virtio-win-guest-tools-stable
+
 # download only, you have to run the installer yourself
 scoop download sb/virtio-win
 scoop download sb/virtio-win-guest-tools
@@ -87,6 +89,8 @@ scoop download sb/virtio-win-guest-tools
 ### sarasagothic-superttc
 
 ```powershell
+scoop cache rm sb/sarasagothic-superttc
+
 # download only, you have to unpack & INSTALL FOR ALL USERS yourself
 scoop download sb/sarasa-superttc
 ```

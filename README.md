@@ -24,42 +24,55 @@ sudo scoop install sb/procrastitracker -g
 > [!NOTE]
 > As I only test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
 
+Groups:
+
+- Unique
+- Mod: custom version, alternatives exist in mainstream buckets
+- Download only: runtime or font, you should install it globally yourself
+
+Mod:
+
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktop-runtime
 - cemu-dev: `games/cemu-dev` w/o persist
-- contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
-- dotnet-{8,9,10}-desktop-runtime: .NET 8/9/10 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk`, download only
 - eden: use MinGW PGO build instead of MSVC in `games/eden`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
-- jigmo: successor of hanazono, download only
-- locale-remulator: successor of Locale-Emulator
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
-- monitorian: multi-screen brightness adjustment tool
 - mousejiggler: smaller than `extras/mousejiggler`
 - neeview-fd: smaller than `extras/neeview`
-- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
-- nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
-- palemoon-np: non-portable version of `extras/palemoon`, download only
-- procrastitracker: time tracking application
-- sarasa-superttc: SuperTTC variant (24H2+), download only
 - supermium: `cetacea/supermium` w/ `--incognito` and persist disabled
+
+Unique:
+
+- contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
+- hikarifield: Hikari Field Client
+- locale-remulator: successor of Locale-Emulator
+- monitorian: multi-screen brightness adjustment tool
+- np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
+- procrastitracker: time tracking application
 - tsugaru: FM Towns/Marty Emulator
-- virtio-win(-guest-tools): virtiofs driver and guest tools
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 - wumt: [winUpdateMiniTool][winUpdateMiniTool]
+
+Download only:
+
+- dotnet-{8,9,10}-desktop-runtime: .NET 8/9/10 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk`
+- flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
+- jigmo: successor of hanazono
+- nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
+- palemoon-np: non-portable version of `extras/palemoon`
+- sarasa-superttc: SuperTTC variant (24H2+)
+- virtio-win(-guest-tools): virtiofs driver and guest tools
 
 ### Experimental
 
 > [!WARNING]
 > NOT audited/tested!
 > When you use them, you are on your own.
-> Expect hash errors, either fix it yourself or use `scoop install -s` to skip verification.
 
 - eka2l1-latest: Symbian OS/N-Gage emulator
-- flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
-- hikarifield: Hikari Field Client
 
 ### Staged
 
