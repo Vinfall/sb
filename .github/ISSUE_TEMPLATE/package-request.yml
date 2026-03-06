@@ -6,7 +6,7 @@ body:
     attributes:
       label: Prerequisites
       options:
-        - label: I have searched in issues/PRs to make sure it's not duplicate.
+        - label: It's not a duplicate of existing issue/PR.
           required: true
   - type: checkboxes
     attributes:

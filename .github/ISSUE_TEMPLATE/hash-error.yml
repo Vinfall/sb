@@ -8,7 +8,7 @@ body:
       options:
         - label: I have used the predefined issue title. (e.g. "xxx@xxx&#58; hash check failed")
           required: true
-        - label: I' using the latest version of Scoop and corresponding bucket.
+        - label: I'm using the latest version of Scoop and corresponding bucket.
           required: true
   - type: input
     attributes:
