@@ -1,4 +1,4 @@
-# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference
 
 version: 2
 updates:
@@ -12,3 +12,4 @@ updates:
       prefix: ci
     cooldown:
       default-days: 3
+    target-branch: main
