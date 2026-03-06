@@ -48,7 +48,6 @@ Unique:
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - hikarifield: Hikari Field Client
 - locale-remulator: successor of Locale-Emulator
-- monitorian: multi-screen brightness adjustment tool
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - procrastitracker: time tracking application
 - tsugaru: FM Towns/Marty Emulator
@@ -91,7 +90,6 @@ Alternatives TL;DR:
 - lunatranslator(-latest): `extras/lunatranslator`
 - pragtical-rolling: `versions/pragtical-rolling`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
-- steamcloudfilemanager: download binaries from upstream
 - virtio-win(-guest-tools-){latest,stable}: `sb/virtio-win(-guest-tools)`
 
 ## [License](LICENSE)

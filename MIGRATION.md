@@ -95,9 +95,11 @@ scoop cache rm sb/sarasagothic-superttc
 scoop download sb/sarasa-superttc
 ```
 
-### steamcloudfilemanager
+## Upstream binary
 
-Not packaged elsewhere, you have to download from [SteamCloudFileManager][SteamCloudFileManager] instead.
-The program has auto update so usually you only need to do it once.
+Not packaged in mainstream buckets.
+Either maintain it in your own bucket, or download binaries from upstream instead.
+Check `homepage` in the respective manifest.
 
-[SteamCloudFileManager]: https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/latest
+- monitorian
+- steamcloudfilemanager
