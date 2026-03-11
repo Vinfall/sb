@@ -1,20 +1,20 @@
 {
-    "version": "10.0.3",
+    "version": "10.0.5",
     "description": ".NET 10 Desktop Runtime Installer (download only)",
     "homepage": "https://dotnet.microsoft.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.3/windowsdesktop-runtime-10.0.3-win-x64.exe",
-            "hash": "48bac209f52eb48652b349ba0347ca51dcf6f3d1f53d9126880ee650692b8f11"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-x64.exe",
+            "hash": "sha512:cbb1ad53aecc54264488cc5c0be938991770750209cf4acd383bbe8af57db679f4d5988e6281a6d6a46b4e141db3d3d539ea764250b4ab48871972a610944b40"
         },
         "32bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.3/windowsdesktop-runtime-10.0.3-win-x86.exe",
-            "hash": "757f9ce470540888135fc5466df5561302411b8e0e5e52c855f299bc708a856e"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-x86.exe",
+            "hash": "sha512:2cfea6f594ed8f8b252375086ddb3b3b95fcdd41d4bb551f88471c1b0f1ae9fe583f61ebc0679434a22586da01ab90cb00a602f00eb798fd52f879ea46c526f0"
         },
         "arm64": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.3/windowsdesktop-runtime-10.0.3-win-arm64.exe",
-            "hash": "458429344ae9cb061ec31e5001ff9bc6127b0d237f1e88be07fd908009c852e7"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-arm64.exe",
+            "hash": "sha512:60de7d993e6927c90297aa25cf1b32ec3d57678391dca9bea8934304d83fd076415deaaa72409d9347164e1a4624260a16b66f7c0d9f0b3ab0ab389a080bad79"
         }
     },
     "checkver": {
