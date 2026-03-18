@@ -98,7 +98,7 @@ scoop download sb/sarasa-superttc
 ## Upstream binary
 
 Not packaged in mainstream buckets.
-Either maintain it in your own bucket, or download binaries from upstream instead.
+Either maintain it in your own bucket, or download binaries from upstream.
 Check `homepage` in the respective manifest.
 
 - monitorian

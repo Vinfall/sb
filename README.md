@@ -4,14 +4,23 @@
 
 Personal scoop bucket, `sb` for short.
 
-## Usage
+## Setup
 
 ```pwsh
 # enable autostash
 scoop config autostash_on_conflict true
 # add this bucket
 scoop bucket add sb https://github.com/Vinfall/sb
+# enable more autostash
+cd $env:SCOOP/buckets/sb
+git config --local rebase.autoStash true
+git config --local pull.rebase true
+git config --local pull.autoStash true
+```
 
+## Usage
+
+```pwsh
 scoop info sb/cromite
 scoop download sb/garbro-mod
 scoop install sb/neeview-fd
@@ -41,7 +50,7 @@ Mod:
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - mousejiggler: smaller than `extras/mousejiggler`
 - neeview-fd: smaller than `extras/neeview`
-- supermium: `cetacea/supermium` w/ `--incognito` and persist disabled
+- supermium: `extras/supermium` w/ `--incognito` enabled and persist disabled
 
 Unique:
 

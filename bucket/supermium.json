@@ -2,7 +2,10 @@
     "version": "138-r9",
     "description": "Chromium fork for Windows XP/2003 and up",
     "homepage": "https://win32subsystem.live/supermium/",
-    "license": "BSD-3-Clause",
+    "license": {
+        "identifier": "BSD-3-Clause",
+        "url": "https://github.com/win32ss/supermium/blob/main/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/win32ss/supermium/releases/download/v138-r9/supermium_138_64_nonsetup.zip",
@@ -31,7 +34,7 @@
             "--incognito"
         ]
     ],
-    "notes": "cetacea/supermium is recommended unless you hate persist 'User Data'.",
+    "notes": "extras/supermium is recommended unless you hate persist 'User Data'.",
     "checkver": {
         "github": "https://github.com/win32ss/supermium",
         "regex": "/releases/tag/(?:v|V)?([\\d.]+(?:-[a-zA-Z0-9]+)?)"
