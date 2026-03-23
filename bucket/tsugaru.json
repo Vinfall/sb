@@ -18,5 +18,12 @@
             "Tsugaru_GUI.exe",
             "Tsugaru"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://github.com/captainys/TOWNSEMU/releases",
+        "regex": "Auto Release v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/captainys/TOWNSEMU/releases/download/v$version/windows_binary_latest.zip"
+    }
 }
