@@ -37,7 +37,7 @@ Groups:
 
 - Unique
 - Mod: custom version, alternatives exist in mainstream buckets
-- Download only: runtime or font, you should install it globally yourself
+- Download only: work best with (unreleased) `scoop-cache.nu`, without which you have to manage cache and install globally yourself
 
 Mod:
 
