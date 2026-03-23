@@ -12,13 +12,22 @@
     "shortcuts": [
         [
             "Tsugaru_CUI.exe",
-            "Tsugaru (CLI)"
+            "Tsugaru (CLI)",
+            "-basedir \"$dir\\Tsugaru_TOWNS\""
         ],
         [
             "Tsugaru_GUI.exe",
-            "Tsugaru"
+            "Tsugaru",
+            "-basedir \"$dir\\Tsugaru_TOWNS\""
         ]
     ],
+    "post_install": [
+        "if (!(Test-Path \"$dir\\Tsugaru_TOWNS\\*\") -and (Test-Path \"$env:USERPROFILE\\Documents\\Tsugaru_TOWNS\")) {",
+        "    info '[Portable Mode]: Copying data...'",
+        "    Copy-Item \"$env:USERPROFILE\\Documents\\Tsugaru_TOWNS\\*\" \"$dir\\Tsugaru_TOWNS\" -Recurse",
+        "}"
+    ],
+    "persist": "Tsugaru_TOWNS",
     "checkver": {
         "url": "https://github.com/captainys/TOWNSEMU/releases",
         "regex": "Auto Release v([\\d.]+)"
