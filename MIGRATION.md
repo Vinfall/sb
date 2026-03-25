@@ -71,6 +71,13 @@ scoop download sb/virtio-win
 # sudo scoop install sb/virtio-win -g
 ```
 
+## tsugaru
+
+```powershell
+scoop uninstall sb/tsugaru
+scoop install games/tsugaru
+```
+
 ## Download only
 
 > [!NOTE]

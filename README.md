@@ -59,7 +59,6 @@ Unique:
 - locale-remulator: successor of Locale-Emulator
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - procrastitracker: time tracking application
-- tsugaru: FM Towns/Marty Emulator
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 - wumt: [winUpdateMiniTool][winUpdateMiniTool]
@@ -99,6 +98,7 @@ Alternatives TL;DR:
 - lunatranslator(-latest): `extras/lunatranslator`
 - pragtical-rolling: `versions/pragtical-rolling`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
+- tsugaru: `games/tsugaru`
 - virtio-win(-guest-tools-){latest,stable}: `sb/virtio-win(-guest-tools)`
 
 ## [License](LICENSE)
