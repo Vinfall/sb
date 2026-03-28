@@ -59,6 +59,7 @@ Unique:
 - locale-remulator: successor of Locale-Emulator
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - procrastitracker: time tracking application
+- romvault: Multi-DAT ROM management software
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 - wumt: [winUpdateMiniTool][winUpdateMiniTool]
