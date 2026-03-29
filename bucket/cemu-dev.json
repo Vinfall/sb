@@ -10,6 +10,20 @@
         }
     },
     "extract_dir": "Cemu_2.6",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\") -and (Test-Path \"$env:APPDATA\\Cemu\")) {",
+        "    info 'Backuping data...'",
+        "    Copy-Item \"$env:APPDATA\\Cemu\" \"$persist_dir\" -Recurse",
+        "}",
+        "if (Test-Path \"$dir\\settings.xml\") { Copy-Item \"$dir\\settings.xml\" \"$persist_dir\\settings.xml.old\" }"
+    ],
+    "installer": {
+        "script": [
+            "if (!(Test-Path \"$persist_dir\\keys.txt\")) {",
+            "    New-Item \"$dir\\keys.txt\" -Type File | Out-Null",
+            "}"
+        ]
+    },
     "bin": [
         [
             "Cemu.exe",
@@ -22,7 +36,6 @@
             "Cemu-Dev"
         ]
     ],
-    "notes": "games/cemu-dev is recommended unless you hate hacky persist",
     "checkver": {
         "url": "https://github.com/cemu-project/Cemu/releases",
         "regex": "Cemu (?<ver>\\d+\\.\\d+)",
