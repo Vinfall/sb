@@ -70,8 +70,10 @@ Download only:
 - dotnet-{8,9,10}-desktop-runtime: .NET 8/9/10 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk`
 - flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
 - jigmo: successor of hanazono
+- nerd-fonts: personal selection of Nerd Fonts
 - nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
 - palemoon-np: non-portable version of `extras/palemoon`
+- sarasa-nerd: personal selection of Sarasa-Gothic-Nerd-Fonts
 - sarasa-superttc: SuperTTC variant (24H2+)
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 
