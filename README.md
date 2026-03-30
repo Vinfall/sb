@@ -6,7 +6,7 @@ Personal scoop bucket, `sb` for short.
 
 ## Setup
 
-```pwsh
+```powershell
 # enable autostash
 scoop config autostash_on_conflict true
 # add this bucket
@@ -20,7 +20,7 @@ git config --local pull.autoStash true
 
 ## Usage
 
-```pwsh
+```powershell
 scoop info sb/cromite
 scoop download sb/garbro-mod
 scoop install sb/neeview-fd
@@ -35,8 +35,8 @@ sudo scoop install sb/procrastitracker -g
 
 Groups:
 
-- Unique
-- Mod: custom version, alternatives exist in mainstream buckets
+- Unique: mostly the only useful ones to you
+- Mod: custom version, alternatives exist in [known buckets][buckets]
 - Download only: work best with (unreleased) `scoop-cache.nu`, without which you have to manage cache and install globally yourself
 
 Mod:
@@ -83,11 +83,6 @@ Download only:
 
 - eka2l1-latest: Symbian OS/N-Gage emulator
 
-### Staged
-
-> [!TIP]
-> These buckets are temporary, would get deleted once merged upstream.
-
 ### Deprecated
 
 > [!NOTE]
@@ -116,3 +111,4 @@ Feel free to index/merge/do whatever you want.
 [ContextMenuManager]: https://github.com/BluePointLilac/ContextMenuManager
 [clean-flash-builds]: https://github.com/darktohka/clean-flash-builds
 [winUpdateMiniTool]: https://github.com/sergiye/winUpdateMiniTool
+[buckets]: https://github.com/ScoopInstaller/Scoop/blob/master/buckets.json
