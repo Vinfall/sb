@@ -1,5 +1,5 @@
 {
-    "version": "144-r1",
+    "version": "144-r2",
     "description": "Chromium fork for Windows XP/2003 and up",
     "homepage": "https://win32subsystem.live/supermium/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/win32ss/supermium/releases/download/v144-r1/supermium_144_64_nonsetup.zip",
-            "hash": "22d2e338e48d5850db2c9047ccd6347de08fb88f4d807e0bc6018a21d141bdea"
+            "url": "https://github.com/win32ss/supermium/releases/download/v144-r2/supermium_144_64_nonsetup.zip",
+            "hash": "c0a4d891f8f197e42b4486005a8fbf5ffb3dfe2adfc7345c4305cb53f91a0673"
         },
         "32bit": {
-            "url": "https://github.com/win32ss/supermium/releases/download/v144-r1/supermium_144_32_nonsetup.zip",
-            "hash": "26a2f730ab65e3a0a5987aa873a2c20a01aeff58165defda04986a09d29af25e"
+            "url": "https://github.com/win32ss/supermium/releases/download/v144-r2/supermium_144_32_nonsetup.zip",
+            "hash": "a0699cd56f4d36b890e08d1d65a830eba20acdab0d3cfe4b79de0981ebfcfc73"
         }
     },
     "extract_dir": "Supermium",
