@@ -1,16 +1,16 @@
 {
-    "version": "34.1.0",
+    "version": "34.3.0.1",
     "description": "Mozilla-derived web browser focusing on efficiency and customization (installer).",
     "homepage": "https://www.palemoon.org",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://rm-eu.palemoon.org/release/palemoon-34.1.0.win64.installer.exe",
-            "hash": "2154b4feb8284a4e42d88b7611efa833250d5bc3914c07783fa9a82d488d73d9"
+            "url": "https://rm-eu.palemoon.org/release/palemoon-34.3.0.1.win64.installer.exe",
+            "hash": "22c39b90bb71121f19ad6df54f84f66ff847b1a936db2379e9b24c6c8ff3ba71"
         },
         "32bit": {
-            "url": "https://rm-eu.palemoon.org/release/palemoon-34.1.0.win32.installer.exe",
-            "hash": "4351738eba98107893f4c09fefb753a03eb196cba23dba9a57b8a7fe4e3acc45"
+            "url": "https://rm-eu.palemoon.org/release/palemoon-34.3.0.1.win32.installer.exe",
+            "hash": "9b46845b455378f889aa59912c601beacc3004003199a2a2c051f5b69003db86"
         }
     },
     "bin": [
