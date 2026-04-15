@@ -1,20 +1,20 @@
 {
-    "version": "10.0.5",
+    "version": "10.0.8",
     "description": ".NET 10 Desktop Runtime Installer (download only)",
     "homepage": "https://dotnet.microsoft.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-x64.exe",
-            "hash": "sha512:cbb1ad53aecc54264488cc5c0be938991770750209cf4acd383bbe8af57db679f4d5988e6281a6d6a46b4e141db3d3d539ea764250b4ab48871972a610944b40"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.8/windowsdesktop-runtime-10.0.8-win-x64.exe",
+            "hash": "sha512:8dde7d1fe5d1934d386c01ac208e1a9debc1afa2448c5404e969c3bdee36b2dbaa9cff999452bd26181659f27f3eeffe200ac223c26a2196dc563bef0536ca1e"
         },
         "32bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-x86.exe",
-            "hash": "sha512:2cfea6f594ed8f8b252375086ddb3b3b95fcdd41d4bb551f88471c1b0f1ae9fe583f61ebc0679434a22586da01ab90cb00a602f00eb798fd52f879ea46c526f0"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.8/windowsdesktop-runtime-10.0.8-win-x86.exe",
+            "hash": "sha512:9822ff88aecfe89b91d66948c29bbff2a8d51c607f15c65f83da68da3cce4dbc7b7cdd898f5d3fdd1888443b757f857d609d8fc69aadf8c0d37f97b22e982a82"
         },
         "arm64": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-arm64.exe",
-            "hash": "sha512:60de7d993e6927c90297aa25cf1b32ec3d57678391dca9bea8934304d83fd076415deaaa72409d9347164e1a4624260a16b66f7c0d9f0b3ab0ab389a080bad79"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.8/windowsdesktop-runtime-10.0.8-win-arm64.exe",
+            "hash": "sha512:42d30c5da6b87f4caa7bfcff25d2144922e4242da2fb5d4adf0c9555eabd96deae4e51724a8580976bc652f74713fa8e1d1fba17cc19e27ca48e131ea291318d"
         }
     },
     "checkver": {
