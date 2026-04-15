@@ -1,20 +1,20 @@
 {
-    "version": "10.0.5",
+    "version": "10.0.11",
     "description": ".NET 10 Desktop Runtime Installer (download only)",
     "homepage": "https://dotnet.microsoft.com/en-us/download/dotnet/10.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-x64.exe",
-            "hash": "sha512:cbb1ad53aecc54264488cc5c0be938991770750209cf4acd383bbe8af57db679f4d5988e6281a6d6a46b4e141db3d3d539ea764250b4ab48871972a610944b40"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.11/windowsdesktop-runtime-10.0.11-win-x64.exe",
+            "hash": "sha512:4dbf26b0b78f55c5f59a46c3c81327b23a04f449f7ac6798204dcd19d99459258936daaede61d1b8c1ba523d6c26bf68bac86b3371d22e67cef235edbdc2f26c"
         },
         "32bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-x86.exe",
-            "hash": "sha512:2cfea6f594ed8f8b252375086ddb3b3b95fcdd41d4bb551f88471c1b0f1ae9fe583f61ebc0679434a22586da01ab90cb00a602f00eb798fd52f879ea46c526f0"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.11/windowsdesktop-runtime-10.0.11-win-x86.exe",
+            "hash": "sha512:46a0cf0e6e9aa1cea3c4caade7db2c3b38662763e56e6306b5d9aa4f38d4a4157ea688a44bf3309ab71f2b1c364f64077b7c585a602232680dfcd948408f1a20"
         },
         "arm64": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.5/windowsdesktop-runtime-10.0.5-win-arm64.exe",
-            "hash": "sha512:60de7d993e6927c90297aa25cf1b32ec3d57678391dca9bea8934304d83fd076415deaaa72409d9347164e1a4624260a16b66f7c0d9f0b3ab0ab389a080bad79"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/10.0.11/windowsdesktop-runtime-10.0.11-win-arm64.exe",
+            "hash": "sha512:3e17b7afda3b4bbbe1599a24f1f1d26a7ac988b2029fc07390f1066b62e65a9e140e509a30741c3787abc5a988a209c3da1fb2ac7263861c042f96bced2ddeca"
         }
     },
     "checkver": {
