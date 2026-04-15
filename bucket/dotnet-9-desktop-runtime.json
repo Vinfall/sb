@@ -1,20 +1,20 @@
 {
-    "version": "9.0.14",
+    "version": "9.0.18",
     "description": ".NET 9 Desktop Runtime Installer (download only)",
     "homepage": "https://dotnet.microsoft.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.14/windowsdesktop-runtime-9.0.14-win-x64.exe",
-            "hash": "sha512:013d3e19a3c0f2b95d1b63e90176ba4950e5a67ef91ea532fd58c17055af778c5b4f4d94d9ceecee7b8a79e2d09d6e5db26c110b48e459dbea10be03fbc60874"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x64.exe",
+            "hash": "sha512:330e22da74e05cf602c8164a560203f2e3f1916eaf63691eb15a260242bd29d543ea83a288d874131bbe427bdcd5dbf9912ecab58935270c8b40dcc786f9e074"
         },
         "32bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.14/windowsdesktop-runtime-9.0.14-win-x86.exe",
-            "hash": "sha512:9848c980bafacc732286d6dfee026a318cfd205e2ed41b880879c734c7eac9b681a584691aa75620f361c64dce2b0dd5ca6b4c20903ab3ac12ef32af8cdc11b2"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x86.exe",
+            "hash": "sha512:e8764139261cdaa93d37915f33384be7fab2029dc2a1c95fe08caff508dc40d7d7183caac3e79258f4bfc443d68d7b1f8b2e160abc69bdabbf4d65e5ebf67eaa"
         },
         "arm64": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.14/windowsdesktop-runtime-9.0.14-win-arm64.exe",
-            "hash": "sha512:fd75c660ee6a023cabbeb214b28bd68698cd546059f88a475c27c943d5902142ed625e362421e28194c60570eb5358ea59a6af9f557d8c461a195be84672660b"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-arm64.exe",
+            "hash": "sha512:4e6f44e28ea643169c1e3473acff1b09b44caf8f7a30f9f7fcf9b1da3bf68fc23495ab3c887b63a473de9d40bbef3215e1472b6186ff56daeafce497617ea0db"
         }
     },
     "checkver": {
