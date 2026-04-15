@@ -1,20 +1,20 @@
 {
-    "version": "8.0.25",
+    "version": "8.0.27",
     "description": ".NET 8 Desktop Runtime Installer (download only)",
     "homepage": "https://dotnet.microsoft.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.25/windowsdesktop-runtime-8.0.25-win-x64.exe",
-            "hash": "sha512:044628141cb05423b7e3a819d3baf13cab75382174a1e528c9c00f9e93919fd2684d68b5d70293f69560316c3909c49be279290da22541ed130a91924842e8ad"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.27/windowsdesktop-runtime-8.0.27-win-x64.exe",
+            "hash": "sha512:eae15cc2594bdb22afd6a7dca1e998674e0f7cc734f65334a4d3b641a8121d3eeaf2f4e1e194a417c1a667ec0a978850c3cffe3931f3667f11cf3e62621d5649"
         },
         "32bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.25/windowsdesktop-runtime-8.0.25-win-x86.exe",
-            "hash": "sha512:fd02de8c7672a40ab2a7d95bc830fc722f3428546ef51ebe713b04bbb358749971638fac3c2569d480ed4e6ffb4255bb269a4f7425f985f73bad2e41dd992d16"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.27/windowsdesktop-runtime-8.0.27-win-x86.exe",
+            "hash": "sha512:75263cf0c7eb59106ca4c3a9a18ab5e912c6d0d995a4b82f9d2471ca4c04f19ae7a8f80521f870b583828f4173868ab1a932c59d05856214f7e98bcf7de01d9b"
         },
         "arm64": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.25/windowsdesktop-runtime-8.0.25-win-arm64.exe",
-            "hash": "sha512:afd1f1aef6a203694c7fb5e965ee532df2fd709353fcacc4facd9966722c2a37fb33ed2c5f21fd6cc7993d9d6f693592fe2349fe2d761d088a11c2b94d3a3426"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.27/windowsdesktop-runtime-8.0.27-win-arm64.exe",
+            "hash": "sha512:6527fb0ddf4ca608a9bb2cc765f2bee62d59d035a1ba696aa58b7c6f70bccd21f13ca8da8448baba79521f5df21c4a800ab4a367dd3735b821e8e8fde23c42d3"
         }
     },
     "checkver": {
