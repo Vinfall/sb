@@ -37,7 +37,7 @@ Groups:
 
 - Unique: mostly the only useful ones to you
 - Mod: custom version, alternatives exist in [known buckets][buckets]
-- Download only: work best with (unreleased) `scoop-cache.nu`, without which you have to manage cache and install globally yourself
+- Download only: work best with (unreleased) `scoop-cache.nu`, without which you have to manage cache and installation yourself
 
 Mod:
 
@@ -45,6 +45,7 @@ Mod:
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktop-runtime
 - cemu-dev: `games/cemu-dev` w/o persist
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
+- dosbox-x: `extras/dosbox-x` w/ working persist and dumped ROM support
 - eden: use MinGW PGO build instead of MSVC in `games/eden`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
@@ -74,7 +75,7 @@ Download only:
 - nxfw: Nintendo Switch firmware, just like `games/ps3-system-software`
 - palemoon-np: non-portable version of `extras/palemoon`
 - sarasa-nerd: personal selection of Sarasa-Gothic-Nerd-Fonts
-- sarasa-superttc: SuperTTC variant (24H2+)
+- sarasa-superttc: SuperTTC variant (24H2+) of Sarasa Gothic
 - virtio-win(-guest-tools): virtiofs driver and guest tools
 
 ### Experimental
