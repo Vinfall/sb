@@ -65,6 +65,7 @@ Unique:
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 - wumt: [winUpdateMiniTool][winUpdateMiniTool]
+- xboxdownload: Xbox Download Assistant
 
 Download only:
 
