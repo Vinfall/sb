@@ -56,7 +56,6 @@ Unique:
 
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - hikarifield: Hikari Field Client
-- locale-remulator: successor of Locale-Emulator
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - procrastitracker: time tracking application
 - retool: filter utility for Redump and No-Intro DAT files
@@ -94,6 +93,7 @@ Alternatives TL;DR:
 
 - chromium: `extras/chromium`
 - gdsdecomp: `games/gdsdecomp`
+- locale-remulator: `extras/locale-remulator`
 - lunatranslator(-latest): `extras/lunatranslator`
 - pragtical-rolling: `versions/pragtical-rolling`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead

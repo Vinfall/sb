@@ -40,6 +40,13 @@ scoop uninstall sb/gdsdecomp
 scoop install games/gdsdecomp
 ```
 
+## locale-remulator
+
+```powershell
+scoop uninstall sb/locale-remulator
+scoop install extras/locale-remulator
+```
+
 ## lunatranslator(-latest)
 
 ```powershell
