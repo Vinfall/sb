@@ -71,6 +71,13 @@ scoop download sb/virtio-win
 # sudo scoop install sb/virtio-win -g
 ```
 
+## supermium
+
+```powershell
+scoop uninstall sb/supermium
+scoop install extras/supermium
+```
+
 ## tsugaru
 
 ```powershell
@@ -110,3 +117,4 @@ Check `homepage` in the respective manifest.
 
 - monitorian
 - steamcloudfilemanager
+- xboxdownload
