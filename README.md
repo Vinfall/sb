@@ -51,7 +51,6 @@ Mod:
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - mousejiggler: smaller than `extras/mousejiggler`
 - neeview-fd: smaller than `extras/neeview`
-- supermium: `extras/supermium` w/ `--incognito` enabled and persist disabled
 
 Unique:
 
@@ -65,7 +64,6 @@ Unique:
 - virtualbox-guest-additions: guest additions ISO, NOT virtualbox or extension pack
 - weasel
 - wumt: [winUpdateMiniTool][winUpdateMiniTool]
-- xboxdownload: Xbox Download Assistant
 
 Download only:
 
@@ -99,6 +97,7 @@ Alternatives TL;DR:
 - lunatranslator(-latest): `extras/lunatranslator`
 - pragtical-rolling: `versions/pragtical-rolling`
 - spice-guest-tools: NOT recommended, use `virtio-win` instead
+- supermium: `extras/supermium`
 - tsugaru: `games/tsugaru`
 - virtio-win(-guest-tools-){latest,stable}: `sb/virtio-win(-guest-tools)`
 

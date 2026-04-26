@@ -1,0 +1,32 @@
+{
+    "version": "1.2.0",
+    "description": "Fast Node.js package manager that drops into existing projects.",
+    "homepage": "https://github.com/endevco/aube",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/endevco/aube/releases/download/v1.2.0/aube-v1.2.0-x86_64-pc-windows-msvc.zip",
+            "hash": "ef33a2aa889db6775bbff64d9a2560f630585bb8d01c316fcccb0b75db80fe9f"
+        },
+        "arm64": {
+            "url": "https://github.com/endevco/aube/releases/download/v1.2.0/aube-v1.2.0-aarch64-pc-windows-msvc.zip",
+            "hash": "2fde1b4c2b40d0714275926db746f372e68a1f8349eba92b7008939f732a0f49"
+        }
+    },
+    "bin": [
+        "aube.exe",
+        "aubr.exe",
+        "aubx.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/endevco/aube/releases/download/$version/aube-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/endevco/aube/releases/download/$version/aube-$version-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
