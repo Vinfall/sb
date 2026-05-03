@@ -1,22 +1,22 @@
 {
-    "version": "2026.03.29",
+    "version": "2026.06.02",
     "description": "DOSBox fork with DOS/V and NEC PC-98 emulation, focusing on general emulation and accuracy.",
     "homepage": "https://dosbox-x.com",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.03.29/dosbox-x-vsbuild-win64-2026.03.29-portable.zip",
-            "hash": "111a1707326cd7110a51765d56a78983c2d15275380db2f555e38e1e62532a04",
+            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.06.02/dosbox-x-vsbuild-win64-2026.06.02-portable.zip",
+            "hash": "62b6e26cd872ce94be0429a0fe368c127352101003ec5799cd903ee603f2da24",
             "extract_dir": "bin\\x64\\Release SDL2"
         },
         "32bit": {
-            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.03.29/dosbox-x-vsbuild-win32-2026.03.29-portable.zip",
-            "hash": "aa4e75c8669672635cc78d7ceacc284443e202556831403550710fc79b4c7efa",
+            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.06.02/dosbox-x-vsbuild-win32-2026.06.02-portable.zip",
+            "hash": "a052552df44181b86707d3eae9add996c181cb0fe8b86199beb113f5975f1423",
             "extract_dir": "bin\\Win32\\Release SDL2"
         },
         "arm64": {
-            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.03.29/dosbox-x-vsbuild-arm64-2026.03.29-portable.zip",
-            "hash": "5a83e5654325d56c97e1a8525b022f16f56b146fc71abab90fb289504dcef3cb",
+            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.06.02/dosbox-x-vsbuild-arm64-2026.06.02-portable.zip",
+            "hash": "9cd24f9416ba33fa3249eb3e3a14e45cd365092cc539d7039b83e44a6adcefed",
             "extract_dir": "bin\\ARM64\\Release SDL2"
         }
     },
