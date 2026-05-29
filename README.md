@@ -45,7 +45,6 @@ Mod:
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktop-runtime
 - cemu-dev: `games/cemu-dev` w/o persist
 - cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
-- dosbox-x: `extras/dosbox-x` w/ working persist and dumped ROM support
 - eden: use MinGW PGO build instead of MSVC in `games/eden`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
@@ -92,6 +91,7 @@ Download only:
 Alternatives TL;DR:
 
 - chromium: `extras/chromium`
+- dosbox-x: `extras/dosbox-x`
 - gdsdecomp: `games/gdsdecomp`
 - locale-remulator: `extras/locale-remulator`
 - lunatranslator(-latest): `extras/lunatranslator`

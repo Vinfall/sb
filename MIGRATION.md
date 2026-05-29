@@ -4,9 +4,9 @@
 > Commands here are for reference only.
 > You should always make sure you understand them well before blindly following this guide.
 
-In this guide, I assume buckets are installed locally to `$env:SCOOP` instead of globally to `$env:SCOOP_GLOBAL`.
+In this guide, I assume buckets are added locally to `$env:SCOOP` instead of globally to `$env:SCOOP_GLOBAL`. Also, make sure you have added respective known buckets before migration.
 
-Certain buckets cannot be installed locally due to the non-portable nature,
+Certain manifests cannot be installed locally due to the non-portable nature,
 in such case, I would add `sudo` prefix and `-g` suffix
 and you are suggested to enable built-in sudo (24H2+) or install gsudo first.
 
@@ -31,6 +31,13 @@ Just choose whatever browser you like. If you have no idea, use `extras/chromium
 ```powershell
 scoop uninstall sb/chromium
 scoop install extras/chromium
+```
+
+## dosbox-x
+
+```powershell
+scoop uninstall sb/dosbox-x
+scoop install extras/dosbox-x
 ```
 
 ## gdsdecomp
