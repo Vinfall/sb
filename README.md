@@ -6,6 +6,11 @@ Personal scoop bucket, `sb` for short.
 
 ## Setup
 
+> [!TIP]
+> Do NOT skip autostash setup below!
+> As scoop cannot install old versions from commit history,
+> I frequently force push to make the commit tree clean.
+
 ```powershell
 # enable autostash
 scoop config autostash_on_conflict true
