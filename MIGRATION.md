@@ -4,7 +4,7 @@
 > Commands here are for reference only.
 > You should always make sure you understand them well before blindly following this guide.
 
-In this guide, I assume buckets are added locally to `$env:SCOOP` instead of globally to `$env:SCOOP_GLOBAL`. Also, make sure you have added respective known buckets before migration.
+Make sure you have added respective known buckets before migration. Also, I assume buckets are added locally to `$env:SCOOP` instead of globally to `$env:SCOOP_GLOBAL`.
 
 Certain manifests cannot be installed locally due to the non-portable nature,
 in such case, I would add `sudo` prefix and `-g` suffix
@@ -38,6 +38,13 @@ scoop install extras/chromium
 ```powershell
 scoop uninstall sb/dosbox-x
 scoop install extras/dosbox-x
+```
+
+## eden
+
+```powershell
+scoop uninstall sb/eden
+scoop install games/eden
 ```
 
 ## gdsdecomp
