@@ -26,7 +26,7 @@ git config --local pull.autoStash true
 ## Usage
 
 ```powershell
-scoop info sb/cromite
+scoop info sb/wumt
 scoop download sb/garbro-mod
 scoop install sb/neeview-fd
 scoop uninstall sb/neeview-fd
@@ -49,7 +49,7 @@ Mod:
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktop-runtime
 - cemu-dev: `games/cemu-dev` w/o persist
-- cromite: `extras/cromite` w/ `--incognito` & manifest v2 extension support enabled and persist/translate disabled
+- chromium: `extras/chromium` w/ `--incognito` w/ persist disabled
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - mousejiggler: smaller than `extras/mousejiggler`
@@ -94,7 +94,7 @@ Download only:
 
 Alternatives TL;DR:
 
-- chromium: `extras/chromium`
+- cromite: `extras/chromium`
 - dosbox-x: `extras/dosbox-x`
 - eden: `games/eden`
 - gdsdecomp: `games/gdsdecomp`
