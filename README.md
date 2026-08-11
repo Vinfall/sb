@@ -69,7 +69,7 @@ Unique:
 
 Download only:
 
-- dotnet-{8,9,10}-desktop-runtime: .NET 8/9/10 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk`
+- dotnet-{8,9,10,11}-desktop-runtime: .NET 8-11 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk` nad  `versions/dotnet-sdk-preview`
 - flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
 - jigmo: successor of hanazono
 - nerd-fonts: personal selection of Nerd Fonts
