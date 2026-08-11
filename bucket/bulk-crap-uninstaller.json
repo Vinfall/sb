@@ -1,16 +1,23 @@
 {
-    "version": "5.9.0",
-    "description": "Bulk program uninstaller with advanced automation (.NET6 variant)",
-    "homepage": "https://www.bcuninstaller.com",
-    "license": "Apache-2.0",
-    "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.9/BCUninstaller_5.9.0_net6.0-windows10.0.18362.0.zip",
-    "hash": "397e9eb5858e644c079acf9154f62903eba258ff826dcbafec500ad168bb54e3",
-    "pre_install": [
-        "ensure \"$persist_dir\" | Out-Null",
-        "Copy-Item \"$persist_dir\\BCUninstaller.settings\" \"$dir\" -ErrorAction 'SilentlyContinue'"
-    ],
+    "version": "6.2.0",
+    "description": "Remove large amounts of unwanted applications quickly (.NET8 variant)",
+    "homepage": "https://www.bcuninstaller.com/",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/blob/master/Licence.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.2/BCUninstaller_6.2.0_net8.0-windows10.0.18362.0.zip",
+            "hash": "71dba14774e855db69eecc6c65b0939d28647d6883593c86115d1e96480b11b6"
+        }
+    },
+    "pre_install": "Copy-Item \"$persist_dir\\BCUninstaller.settings\" \"$dir\" -ErrorAction Ignore",
     "uninstaller": {
-        "script": "Copy-Item \"$dir\\BCUninstaller.settings\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force"
+        "script": [
+            "ensure \"$persist_dir\" | Out-Null",
+            "Copy-Item \"$dir\\BCUninstaller.settings\" \"$persist_dir\" -ErrorAction Ignore -Force"
+        ]
     },
     "bin": [
         "BCU-console.exe",
@@ -26,11 +33,17 @@
             "Bulk Crap Uninstaller"
         ]
     ],
-    "notes": "extras/bulk-crap-uninstaller is recommended unless you prefer smaller size, dotnet-6-desktop-runtime is required.",
+    "notes": "extras/bulk-crap-uninstaller is recommended unless you prefer smaller size, dotnet-8-desktop-runtime is required.",
     "checkver": {
-        "github": "https://github.com/Klocman/Bulk-Crap-Uninstaller"
+        "github": "https://api.github.com/repos/BCUninstaller/Bulk-Crap-Uninstaller/releases/latest",
+        "jsonpath": "$.assets[*].browser_download_url",
+        "regex": "download/v(?<tag>[\\d.]+)/BCUninstaller_([\\d.]+)_net8.0(?:-[\\w]+)?\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v$version/BCUninstaller_$version_net6.0-windows10.0.18362.0.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v$matchTag/BCUninstaller_$version_net8.0-windows10.0.18362.0.zip"
+            }
+        }
     }
 }

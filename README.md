@@ -47,7 +47,7 @@ Groups:
 Mod:
 
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
-- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-6-desktop-runtime
+- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-8-desktop-runtime
 - cemu-dev: `games/cemu-dev` w/o persist
 - chromium: `extras/chromium` w/ `--incognito` w/ persist disabled
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
