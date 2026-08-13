@@ -50,6 +50,15 @@ scoop uninstall sb/eden
 scoop install games/eden
 ```
 
+## eka2l1-latest
+
+```powershell
+mv $env:SCOOP/persist/eka2l1-latest $env:SCOOP/persist/eka2l1
+
+scoop uninstall sb/eka2l1-latest
+scoop install sb/eka2l1
+```
+
 ## gdsdecomp
 
 ```powershell

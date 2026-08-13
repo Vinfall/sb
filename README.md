@@ -35,9 +35,6 @@ sudo scoop install sb/procrastitracker -g
 
 ## List
 
-> [!NOTE]
-> As I only test buckets locally, online version is likely outdated/buggy before changes/fixes are pushed.
-
 Groups:
 
 - Unique: mostly the only useful ones to you
@@ -58,6 +55,7 @@ Mod:
 Unique:
 
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
+- eka2l1: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
 - np21w(-beta): Neko Project 21/W, PC-9800 Series Emulator
 - procrastitracker: time tracking application
@@ -69,7 +67,7 @@ Unique:
 
 Download only:
 
-- dotnet-{8,9,10,11}-desktop-runtime: .NET 8-11 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk` nad  `versions/dotnet-sdk-preview`
+- dotnet-{8,9,10,11}-desktop-runtime: .NET 8-11 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk` and  `versions/dotnet-sdk-preview`
 - flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
 - jigmo: successor of hanazono
 - nerd-fonts: personal selection of Nerd Fonts
@@ -78,14 +76,6 @@ Download only:
 - sarasa-nerd: personal selection of Sarasa-Gothic-Nerd-Fonts
 - sarasa-superttc: SuperTTC variant (24H2+) of Sarasa Gothic
 - virtio-win(-guest-tools): virtiofs driver and guest tools
-
-### Experimental
-
-> [!WARNING]
-> NOT audited/tested!
-> When you use them, you are on your own.
-
-- eka2l1-latest: Symbian OS/N-Gage emulator
 
 ### Deprecated
 
