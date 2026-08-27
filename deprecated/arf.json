@@ -1,19 +1,18 @@
 {
-    "version": "0.3.0",
+    "version": "0.5.0",
     "description": "Modern R console written in Rust",
     "homepage": "https://github.com/eitsupi/arf",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/eitsupi/arf/releases/download/v0.3.0/arf-console-x86_64-pc-windows-msvc.zip",
-            "hash": "79ee6eb6786c21c6d60ff1aeea0b38d2525997fe5c8d4dbf3b80900b59092f2a"
+            "url": "https://github.com/eitsupi/arf/releases/download/v0.5.0/arf-console-x86_64-pc-windows-msvc.zip",
+            "hash": "d0103b852fef9bb6500cc301f1648adcbadc83e5b54ecc2a8874b443852d1d15"
         },
         "arm64": {
-            "url": "https://github.com/eitsupi/arf/releases/download/v0.3.0/arf-console-aarch64-pc-windows-msvc.zip",
-            "hash": "ddd570be003651f3b27b6433d8f611e3a8965dfbdf6f49ceee8bd4ccc11ce07f"
+            "url": "https://github.com/eitsupi/arf/releases/download/v0.5.0/arf-console-aarch64-pc-windows-msvc.zip",
+            "hash": "7caf471924e4b2c02a62d7574f28ca3b712021936083b4432c75863795b5894b"
         }
     },
-    "notes": "arf is under active development. Check https://github.com/eitsupi/arf for current status.",
     "bin": "arf.exe",
     "checkver": "github",
     "autoupdate": {
