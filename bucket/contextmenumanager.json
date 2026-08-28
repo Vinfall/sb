@@ -6,9 +6,8 @@
     "url": "https://github.com/Jack251970/ContextMenuManager/releases/download/4.0.0.6/ContextMenuManager.exe",
     "hash": "df10c663cc4df10a8d7ad3a2d9fa8a36b6f5968e29a2038ee7116e04d70b9ff7",
     "suggest": {
-        "dotnet-10-desktop-runtime": "sb/dotnet-10-desktop-runtime"
+        "dotnet-10-desktop-runtime": "versions/windowsdesktop-runtime-10.0"
     },
-    "notes": "Dotnet-10-desktop-runtime is required.",
     "shortcuts": [
         [
             "ContextMenuManager.exe",

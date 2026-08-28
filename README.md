@@ -44,10 +44,10 @@ Groups:
 Mod:
 
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
-- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-8-desktop-runtime
+- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`
 - cemu-dev: `games/cemu-dev` w/o persist
 - chromium: `extras/chromium` w/ `--incognito` w/ persist disabled
-- compactgui-dev: development version of `extras/compactgui`, requires dotnet-10-desktop-runtime
+- compactgui-dev: development version of `extras/compactgui`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - mousejiggler: smaller than `extras/mousejiggler`
@@ -68,7 +68,6 @@ Unique:
 
 Download only:
 
-- dotnet-{8,9,10,11}-desktop-runtime: .NET 8-11 Desktop Runtime installer, much smaller than all-in-one `versions/dotnet-{8,9,10}-sdk` and  `versions/dotnet-sdk-preview`
 - flash: [clean-flash-builds][clean-flash-builds], Adobe Flash Player sans adware/spyware
 - jigmo: successor of hanazono
 - nerd-fonts: personal selection of Nerd Fonts
@@ -87,6 +86,7 @@ Alternatives TL;DR:
 
 - cromite: `extras/chromium`
 - dosbox-x: `extras/dosbox-x`
+- dotnet-{8,9,10}-desktop-runtime: `versions/windowsdesktop-runtime-{8,9,10}.0`
 - eden: `games/eden`
 - gdsdecomp: `games/gdsdecomp`
 - locale-remulator: `extras/locale-remulator`

@@ -34,8 +34,7 @@
             }
         },
         "hash": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/$majorVersion.$minorVersion/releases.json",
-            "regex": "(?s)$basename.*?$sha512"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/checksums/$version-sha.txt"
         }
     }
 }

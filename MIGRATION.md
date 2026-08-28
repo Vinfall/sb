@@ -123,6 +123,19 @@ scoop install games/tsugaru
 > [!NOTE]
 > Migration is unnecessary as these buckets are download only.
 
+### dotnet-{8,9,10}-desktop-runtime
+
+> [!NOTE]
+> .NET 11 is not yet released, it would become available in versions bucket in 2026-11.
+
+```powershell
+scoop cache rm sb/dotnet-8-desktop-runtime sb/dotnet-9-desktop-runtime sb/dotnet-10-desktop-runtime sb/dotnet-11-desktop-runtime
+
+scoop download versions/windowsdesktop-runtime-8.0 versions/windowsdesktop-runtime-9.0 versions/windowsdesktop-runtime-10.0
+# optionally install them
+# sudo scoop install versions/windowsdesktop-runtime-8.0 versions/windowsdesktop-runtime-9.0 versions/windowsdesktop-runtime-10.0 -g
+```
+
 ### virtio-win(-guest-tools-){latest,stable}
 
 ```powershell

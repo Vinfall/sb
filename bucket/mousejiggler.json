@@ -14,9 +14,8 @@
         }
     },
     "suggest": {
-        "dotnet-10-desktop-runtime": "sb/dotnet-10-desktop-runtime"
+        "dotnet-10-desktop-runtime": "versions/windowsdesktop-runtime-10.0"
     },
-    "notes": "Dotnet-10-desktop-runtime is required.",
     "bin": "MouseJiggler.exe",
     "shortcuts": [
         [

@@ -6,9 +6,8 @@
     "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.19.0/AssetStudioModGUI_net9_win64.zip",
     "hash": "acba8d024fbcb625b8f6a4cbc9e3c83e6274abb637d1a11c3c0615a9d45305af",
     "suggest": {
-        "dotnet-9-desktop-runtime": "sb/dotnet-9-desktop-runtime"
+        "dotnet-9-desktop-runtime": "versions/windowsdesktop-runtime-9.0"
     },
-    "notes": "Dotnet-9-desktop-runtime is required.",
     "extract_dir": [
         "AssetStudioModGUI_net9_win64",
         "",
