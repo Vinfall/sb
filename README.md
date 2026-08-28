@@ -47,6 +47,7 @@ Mod:
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`, requires dotnet-8-desktop-runtime
 - cemu-dev: `games/cemu-dev` w/o persist
 - chromium: `extras/chromium` w/ `--incognito` w/ persist disabled
+- compactgui-dev: development version of `extras/compactgui`, requires dotnet-10-desktop-runtime
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - mousejiggler: smaller than `extras/mousejiggler`
