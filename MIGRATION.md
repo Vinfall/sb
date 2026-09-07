@@ -2,9 +2,10 @@
 
 > [!NOTE]
 > Commands here are for reference only.
-> You should always make sure you understand them well before blindly following this guide.
+> Make sure you understand them well before blindly copy pasting.
 
-Make sure you have added respective known buckets before migration. Also, I assume buckets are added locally to `$env:SCOOP` instead of globally to `$env:SCOOP_GLOBAL`.
+You should have added respective known buckets before migration.
+Also, I assume buckets are added locally to `$env:SCOOP` instead of globally to `$env:SCOOP_GLOBAL`.
 
 Certain manifests cannot be installed locally due to the non-portable nature,
 in such case, I would add `sudo` prefix and `-g` suffix
