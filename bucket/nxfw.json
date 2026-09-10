@@ -1,13 +1,13 @@
 {
-    "version": "22.5.0",
+    "version": "23.0.1",
     "description": "Nintendo Switch firmware",
     "homepage": "https://support.nintendo.com/jp/switch/system_update/index.html",
     "license": {
         "identifier": "Proprietary",
         "url": "https://support.nintendo.com/jp/switch/eula/usage_policy.html"
     },
-    "url": "https://github.com/sthetix/NXFW/releases/download/22.5.0/FW-22.5.0.zip",
-    "hash": "d60216c29a1ee153d1c9c6e3757f0ca7428fb182a3a9a84df59109c4db53e7db",
+    "url": "https://github.com/sthetix/NXFW/releases/download/23.0.1/FW-23.0.1.zip",
+    "hash": "bbad99b7e1c3ce93a2b7129864567e01a6cb41d4b08395f6b0de92c253f6b43a",
     "checkver": {
         "github": "https://github.com/sthetix/NXFW"
     },
