@@ -1,12 +1,15 @@
+name: Issue
+
 on:
   issues:
     types: [opened, labeled]
-name: Issue
 jobs:
   issueHandler:
     name: IssueHandler
+    if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
     permissions:
-      contents: read # required for comment?
+      contents: read # write required for comment?
+      issues: write
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v7
@@ -14,6 +17,5 @@ jobs:
           persist-credentials: false
       - name: IssueHandler
         uses: ScoopInstaller/GithubActions@main
-        if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCOOP_BRANCH: develop

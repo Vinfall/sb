@@ -1,11 +1,13 @@
+name: Update
+
 on:
   workflow_dispatch:
   schedule:
     # run every 8 hours
     - cron: "20 */8 * * *"
-name: Update
 jobs:
   update:
+    name: update
     runs-on: windows-latest
     permissions:
       contents: write # required to update
@@ -15,5 +17,5 @@ jobs:
           persist-credentials: true # required to update
       - uses: ScoopInstaller/GithubActions@main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: 1
+          SCOOP_BRANCH: develop

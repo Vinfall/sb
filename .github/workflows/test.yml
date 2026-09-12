@@ -1,38 +1,43 @@
 name: Test
 
 on:
+  pull_request:
   push:
     branches:
       - "main"
-  pull_request:
   workflow_dispatch:
 
 jobs:
-  test_powershell:
-    name: WindowsPowerShell
+  test:
+    name: Test
     permissions:
       contents: read
     runs-on: windows-latest
+    strategy:
+      matrix:
+        shell: [powershell, pwsh]
+    defaults:
+      run:
+        shell: ${{ matrix.shell }}
     steps:
       - name: Checkout Bucket
         uses: actions/checkout@v7
         with:
           persist-credentials: false
           fetch-depth: 2
-          path: my_bucket
+          path: "my_bucket"
       - name: Checkout Scoop
         uses: actions/checkout@v7
         with:
           persist-credentials: false
           repository: ScoopInstaller/Scoop
-          path: scoop_core
-      - name: Init Test Suite
+          path: "scoop_core"
+      - name: Init tests
         uses: potatoqualitee/psmodulecache@main
         with:
-          modules-to-cache: BuildHelpers
-          shell: powershell
-      - name: Test Bucket
-        shell: powershell
+          modules-to-cache: BuildHelpers, Pester
+          shell: ${{ matrix.shell }}
+      - name: Run tests
         run: |
           $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
           .\my_bucket\bin\test.ps1
