@@ -1,5 +1,5 @@
 {
-    "version": "6.2.0",
+    "version": "6.3.0",
     "description": "Remove large amounts of unwanted applications quickly (.NET8 variant)",
     "homepage": "https://www.bcuninstaller.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.2/BCUninstaller_6.2.0_net8.0-windows10.0.18362.0.zip",
-            "hash": "71dba14774e855db69eecc6c65b0939d28647d6883593c86115d1e96480b11b6"
+            "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.3/BCUninstaller_6.3.0_net8.0-windows10.0.18362.0.zip",
+            "hash": "4bfa602517b0cd4e81519ae12f4fdb087625aa93f2fed5c99f5c049117ce5c17"
         }
     },
     "suggest": {
@@ -40,7 +40,7 @@
     "checkver": {
         "github": "https://api.github.com/repos/BCUninstaller/Bulk-Crap-Uninstaller/releases/latest",
         "jsonpath": "$.assets[*].browser_download_url",
-        "regex": "download/v(?<tag>[\\d.]+)/BCUninstaller_([\\d.]+)_net8.0(?:-[\\w]+)?\\.zip"
+        "regex": "download/v(?<tag>[\\d.]+)/BCUninstaller_([\\d.]+)_net8.0(?:-[\\w]+)?"
     },
     "autoupdate": {
         "architecture": {
