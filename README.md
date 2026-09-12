@@ -37,7 +37,7 @@ sudo scoop install sb/procrastitracker -g
 
 Groups:
 
-- Unique: mostly the only useful ones to you
+- Unique: most likely useful
 - Mod: custom version, alternatives exist in [known buckets][buckets]
 - Download only: work best with (unreleased) `scoop-cache.nu`, without which you have to manage cache and installation yourself
 
