@@ -46,7 +46,8 @@ Mod:
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
 - bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`
 - cemu-dev: `games/cemu-dev` w/o persist
-- chromium: `extras/chromium` w/ `--incognito` w/ persist disabled
+- cromite: `extras/cromite` w/ `--incognito` and w/o persist/translate
+- chromium: `extras/chromium` w/ `--incognito` and w/o persist
 - compactgui-dev: development version of `extras/compactgui`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
@@ -84,7 +85,6 @@ Download only:
 
 Alternatives TL;DR:
 
-- cromite: `extras/chromium`
 - dosbox-x: `extras/dosbox-x`
 - dotnet-{8,9,10}-desktop-runtime: `versions/windowsdesktop-runtime-{8,9,10}.0`
 - eden: `games/eden`

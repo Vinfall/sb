@@ -24,19 +24,6 @@ gsudo config PathPrecedence --global True
 sudo config --enable normal
 ```
 
-## cromite
-
-As Chromium fixes a lot of vulnerabilities lately, and cromite still stuck at v148, I strongly recommend switching to other browsers.
-
-If you have no idea, use `extras/chromium`.
-
-As cromite differs from Chromium, it's NOT recommended to migrate `User Data`.
-
-```powershell
-scoop uninstall sb/cromite
-scoop install extras/chromium
-```
-
 ## dosbox-x
 
 ```powershell
