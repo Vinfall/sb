@@ -1,20 +1,20 @@
 {
-    "version": "0.86-rev103",
+    "version": "0.86-rev104",
     "homepage": "https://simk98.github.io/np21w/",
     "license": "Freeware",
     "description": "Neko Project 21/W, PC-9800 Series Emulator.",
     "url": [
-        "https://drive.google.com/uc?export=download&id=1haP5QsXrT_npfJiNCHBUzthN5IvdGxuD#/np21w-0.86-rev103.zip",
+        "https://drive.google.com/uc?export=download&id=174l-OSa9E3Ez5WkIQ6hWbHihOM_OXLmO#/np21w-0.86-rev104.zip",
         "https://drive.google.com/uc?export=download&id=1R7YK4YRZXO5_-owK4if8i_U4BsjTRJpw#/np2tool.zip",
         "https://drive.google.com/uc?export=download&id=18KH-ZV6kCa0j0fg-4JHgSIQsiX8N6whE#/np21wtool.zip"
     ],
     "hash": [
-        "c2e376c6e2728b72fc505c0388e67b9e3f317d95422339be477162eb1b612558",
-        "b29789ef9e69d02dd119ca65c2b39a6c5f0902b872a8f7920862e39fc3f44248",
+        "42f4f704b983cdbc7c647e85294447ded5da86488297231dbef8197f2018faef",
+        "d88d5f9b3b25aaa8720142ab9cee6cd44f4f1d1fabc37aec853c0134b94271e6",
         "d364ddae2e9401691a77b5f26f7fc8862fc2384b3588d5f9667d6a76e24f460a"
     ],
     "extract_dir": [
-        "np21w-0.86-rev103",
+        "np21w-0.86-rev104",
         "",
         ""
     ],
@@ -46,5 +46,5 @@
             "Neko Project 21W (x64)"
         ]
     ],
-    "notes": "To use dumped ROM, place them inside $persist_dir\\bin and reinstall. This only needs to be done once."
+    "notes": "To use dumped BIOS, place them inside $persist_dir\\bin and reinstall. This only needs to be done once."
 }
