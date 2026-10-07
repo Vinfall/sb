@@ -1,16 +1,16 @@
 {
-    "version": "2.2.0",
+    "version": "2.6.1",
     "description": "Fast Node.js package manager that drops into existing projects.",
-    "homepage": "https://github.com/jdx/aube",
+    "homepage": "https://github.com/aubepkg/aube",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jdx/aube/releases/download/v2.2.0/aube-v2.2.0-x86_64-pc-windows-msvc.zip",
-            "hash": "2d68e3e995c336486647034eb8b99c3cfa68894e385a44200af2bc14bc4064cf"
+            "url": "https://github.com/aubepkg/aube/releases/download/v2.6.1/aube-v2.6.1-x86_64-pc-windows-msvc.zip",
+            "hash": "f6399466cc0e0c2f52248b56477182d4857a8a02d518936b055a3a67f0f25f87"
         },
         "arm64": {
-            "url": "https://github.com/jdx/aube/releases/download/v2.2.0/aube-v2.2.0-aarch64-pc-windows-msvc.zip",
-            "hash": "bda6f8880a89883c42fd89f0e4a02c84ccab3f25c265687e96efa7b893968289"
+            "url": "https://github.com/aubepkg/aube/releases/download/v2.6.1/aube-v2.6.1-aarch64-pc-windows-msvc.zip",
+            "hash": "29b1fbbe535f8460ccccf6f69574e9bca8b3e1536d0f5fe06b6d9c5eaa1b7aaf"
         }
     },
     "bin": [
@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jdx/aube/releases/download/$version/aube-v$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/aubepkg/aube/releases/download/v$version/aube-v$version-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/jdx/aube/releases/download/$version/aube-v$version-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/aubepkg/aube/releases/download/v$version/aube-v$version-aarch64-pc-windows-msvc.zip"
             }
         }
     }
