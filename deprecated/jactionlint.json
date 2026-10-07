@@ -1,0 +1,38 @@
+{
+    "version": "1.8.2",
+    "description": "Static checker for GitHub Actions workflow files",
+    "homepage": "https://github.com/jdx/jactionlint",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jdx/jactionlint/releases/download/v1.8.2/jactionlint_1.8.2_windows_amd64.zip",
+            "hash": "fd7be539cd3276d5178f85ef140c1bb52395b1ec1f59b1585050e1be3b0b194b"
+        },
+        "32bit": {
+            "url": "https://github.com/jdx/jactionlint/releases/download/v1.8.2/jactionlint_1.8.2_windows_386.zip",
+            "hash": "3ef71762bcf2082df81e4d16226ccf7ebf585a4be862316795b1ba9043f69f20"
+        },
+        "arm64": {
+            "url": "https://github.com/jdx/jactionlint/releases/download/v1.8.2/jactionlint_1.8.2_windows_arm64.zip",
+            "hash": "ed774c6085d0606bf3ae8ec86cd540e328b73f0ae2b1397e42704495e18f7cc9"
+        }
+    },
+    "bin": "jactionlint.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jdx/jactionlint/releases/download/v$version/jactionlint_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/jdx/jactionlint/releases/download/v$version/jactionlint_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/jdx/jactionlint/releases/download/v$version/jactionlint_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/jactionlint_$version_checksums.txt"
+        }
+    }
+}
