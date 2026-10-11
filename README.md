@@ -50,6 +50,7 @@ Mod:
 - chromium: `extras/chromium` w/ `--incognito` and w/o persist
 - compactgui-dev: development version of `extras/compactgui`
 - garbro-mod: crskycode's fork, original one is `extras/garbro`
+- pkhex: PKHeX with auto legality plugin, slightly outdated than `games/pkhex`
 - malware-patch: bundled version, unbundled (cert+exe) version is `extras-cn/malware-patch`
 - mousejiggler: smaller than `extras/mousejiggler`
 - neeview-fd: smaller than `extras/neeview`

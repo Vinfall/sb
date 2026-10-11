@@ -1,0 +1,55 @@
+{
+    "version": "26.08.26",
+    "description": "Pokémon Save File Editor with Auto-Legality Support",
+    "license": "GPL-3.0-only,MIT",
+    "homepage": "https://projectpokemon.org/pkhex/",
+    "url": [
+        "https://github.com/kwsch/PKHeX/raw/master/Directory.Build.props",
+        "https://github.com/santacrab2/PKHeX-Plugins/releases/download/26.08.26/PKHeX-Plugins.zip"
+    ],
+    "extract_to": "plugins",
+    "hash": [
+        "5111d2ba5acc77e5dc4f000fce7556c830244b3271a010ec7edb7cbcef72dff8",
+        "ef6a5e1651663c2629f3e1c2435ba2f95453f6fe02fa8e1bd2e88bb18a7a6ba4"
+    ],
+    "shortcuts": [
+        [
+            "PKHeX.exe",
+            "PKHeX"
+        ]
+    ],
+    "bin": "PKHeX.exe",
+    "persist": [
+        "bak",
+        "sav",
+        "almconfig.json",
+        "cfg.json"
+    ],
+    "pre_install": [
+        "$user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203'",
+        "$resp = Invoke-WebRequest -UseBasicParsing -UserAgent $user_agent -Uri 'https://projectpokemon.org/forums/files/file/1-pkhex/' -SessionVariable session",
+        "$url = [System.Net.WebUtility]::HtmlDecode(($resp.Links | Where-Object outerHTML -CMatch \"Download\\s+this\\s+file\" | Select-Object -ExpandProperty href))",
+        "$file = \"$original_dir\\dl.7z\"",
+        "Invoke-WebRequest -UseBasicParsing -UserAgent $user_agent -Uri $url -WebSession $session -OutFile $file",
+        "if (!(Test-Path \"$persist_dir\\cfg.json\")) { '{}' | Out-File \"$dir\\cfg.json\" }",
+        "if (!(Test-Path \"$dir\\bak\")) { New-Item -Path \"$dir\\bak\" -ItemType Directory | Out-Null }",
+        "if (Test-Path \"$persist_dir\\almconfig.json\") { Copy-Item \"$persist_dir\\almconfig.json\" \"$persist_dir\\almconfig.json.old\" }",
+        "if (Test-Path \"$persist_dir\\cfg.json\") { Copy-Item \"$persist_dir\\cfg.json\" \"$persist_dir\\cfg.json.old\" }"
+    ],
+    "installer": {
+        "script": [
+            "$file = \"$dir\\dl.7z\"",
+            "Expand-7ZipArchive $file \"$dir\"",
+            "Remove-Item -Path $file -Force"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/santacrab2/PKHeX-Plugins"
+    },
+    "autoupdate": {
+        "url": [
+            "https://github.com/kwsch/PKHeX/raw/master/Directory.Build.props",
+            "https://github.com/santacrab2/PKHeX-Plugins/releases/download/$version/PKHeX-Plugins.zip"
+        ]
+    }
+}
