@@ -34,16 +34,13 @@
         "script": ""
     },
     "bin": "",
-    "env_add_path": [
-        "",
-        ""
-    ],
+    "shortcuts": [],
     "persist": [
         "",
         ""
     ],
     "checkver": {
-        "url": "",
+        "github": "",
         "regex": ""
     },
     "autoupdate": {

@@ -1,5 +1,5 @@
 {
-    "version": "144-r2",
+    "version": "144.0.7559.256-r5",
     "description": "Chromium fork for Windows XP/2003 and up",
     "homepage": "https://win32subsystem.live/supermium/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/win32ss/supermium/releases/download/v144-r2/supermium_144_64_nonsetup.zip",
-            "hash": "c0a4d891f8f197e42b4486005a8fbf5ffb3dfe2adfc7345c4305cb53f91a0673"
+            "url": "https://github.com/win32ss/supermium/releases/download/v144-r5/supermium_144_64_nonsetup.zip",
+            "hash": "805232e5cde1bf6971748bc7fb6a2cb09fdfce9ceb91062a1814b228139956ca"
         },
         "32bit": {
-            "url": "https://github.com/win32ss/supermium/releases/download/v144-r2/supermium_144_32_nonsetup.zip",
-            "hash": "a0699cd56f4d36b890e08d1d65a830eba20acdab0d3cfe4b79de0981ebfcfc73"
+            "url": "https://github.com/win32ss/supermium/releases/download/v144-r5/supermium_144_32_nonsetup.zip",
+            "hash": "17acfcdf89ea651905053b50b0fce5a28db19cb2c69ed5579c7b177806ed6d31"
         }
     },
     "extract_dir": "Supermium",
@@ -36,16 +36,18 @@
     ],
     "notes": "extras/supermium is recommended unless you hate persist 'User Data'.",
     "checkver": {
-        "github": "https://github.com/win32ss/supermium",
-        "regex": "/releases/tag/(?:v|V)?([\\d.]+(?:-[a-zA-Z0-9]+)?)"
+        "github": "https://api.github.com/repos/win32ss/supermium/releases/latest",
+        "jsonpath": "$..['tag_name', 'name']",
+        "regex": "(?i)\"(?<tag>v?[\\d]+(?<suffix>-[^\"]+)?)\",\"[^\"]+?(?<prefix>[\\d.]+)",
+        "replace": "${prefix}${suffix}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/win32ss/supermium/releases/download/v$version/supermium_$majorVersion_64_nonsetup.zip"
+                "url": "https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_64_nonsetup.zip"
             },
             "32bit": {
-                "url": "https://github.com/win32ss/supermium/releases/download/v$version/supermium_$majorVersion_32_nonsetup.zip"
+                "url": "https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_32_nonsetup.zip"
             }
         }
     }

@@ -19,7 +19,8 @@
     },
     "checkver": {
         "url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",
-        "jsonpath": "$..releases-index[?(@.channel-version == '11.0'))].latest-runtime"
+        "jsonpath": "$..releases-index[?(@.channel-version == '11.0'))].latest-runtime",
+        "regex": "([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

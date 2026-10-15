@@ -22,7 +22,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/skydevil88/XboxDownload/releases.atom",
+        "github": "https://github.com/skydevil88/XboxDownload",
         "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {

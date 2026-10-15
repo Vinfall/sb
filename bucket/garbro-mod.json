@@ -19,7 +19,7 @@
     ],
     "persist": "GameData",
     "checkver": {
-        "url": "https://github.com/crskycode/GARbro/tags",
+        "github": "https://github.com/crskycode/GARbro/tags",
         "regex": "tag/GARbro-Mod-(.+?)\""
     },
     "pre_install": "if (Test-Path \"$persist_dir\\GameData\\Formats.dat\") { Copy-Item \"$persist_dir\\GameData\\Formats.dat\" \"$persist_dir\\GameData\\Formats.dat.old\" }",

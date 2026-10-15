@@ -37,7 +37,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/cemu-project/Cemu/releases",
+        "github": "https://github.com/cemu-project/Cemu/releases",
         "regex": "Cemu (?<ver>\\d+\\.\\d+)",
         "replace": "${1}"
     },

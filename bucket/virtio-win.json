@@ -1,10 +1,10 @@
 {
+    "version": "0.1.302-1",
+    "description": "Virtio Windows driver installer.",
     "homepage": "https://fedorapeople.org/groups/virt/virtio-win/",
-    "description": "Virtio Windows driver installer, properly versioned.",
     "license": {
         "identifier": "Apache-2.0|BSD-3-Clause"
     },
-    "version": "0.1.302-1",
     "architecture": {
         "64bit": {
             "url": "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.302-1/virtio-win-gt-x64.msi",

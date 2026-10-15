@@ -33,7 +33,7 @@
     "notes": "extras/cromite is recommended unless you hate persist 'User Data'.",
     "checkver": {
         "github": "https://github.com/uazo/cromite",
-        "regex": "/releases/tag/v([\\d.]+)-(?<sha>[0-9a-f]+)"
+        "regex": "v([\\d.]+)-(?<sha>[0-9a-f]+)"
     },
     "autoupdate": {
         "architecture": {
