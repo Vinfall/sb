@@ -12,16 +12,16 @@
         "enabled": true,
         "formatWithErrors": false,
         "indentStyle": "space",
+        "indentWidth": 4,
         "lineEnding": "crlf",
         "attributePosition": "auto",
         "bracketSpacing": true,
-        "useEditorconfig": true,
-        "indentWidth": 4
+        "useEditorconfig": true
     },
     "linter": {
         "enabled": true,
         "rules": {
-            "recommended": true
+            "preset": "recommended"
         }
     },
     "json": {
