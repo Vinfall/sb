@@ -1,18 +1,13 @@
 {
     "version": "0.20.0",
-    "description": "AssetStudioMod, fork of Perfare's AssetStudio (.NET9 GUI variant)",
+    "description": "AssetStudioMod, fork of Perfare's AssetStudio (.NET10 GUI variant)",
     "homepage": "https://github.com/aelurum/AssetStudio",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.20.0/AssetStudioModGUI_net9_win64.zip",
-    "hash": "8629bf20213430105466d9d64644641fb9b96ae847e5592356af146487c5311f",
+    "url": "https://github.com/aelurum/AssetStudioMod/releases/download/v0.20.0/AssetStudioModGUI_net10_win64.zip",
+    "hash": "6dccfd9e5f38503beb6a673e5f1185260c5f195c03afabc52e46fa95f3c2a558",
     "suggest": {
-        "dotnet-9-desktop-runtime": "versions/windowsdesktop-runtime-9.0"
+        "dotnet-10-desktop-runtime": "versions/windowsdesktop-runtime-10.0"
     },
-    "extract_dir": [
-        "AssetStudioModGUI_net9_win64",
-        "",
-        ""
-    ],
     "bin": [
         [
             "AssetStudioModGUI.exe",
@@ -27,6 +22,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/aelurum/AssetStudio/releases/download/v$version/AssetStudioModGUI_net9_win64.zip"
+        "url": "https://github.com/aelurum/AssetStudio/releases/download/v$version/AssetStudioModGUI_net10_win64.zip"
     }
 }
