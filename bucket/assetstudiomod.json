@@ -1,10 +1,10 @@
 {
-    "version": "0.19.0",
+    "version": "0.20.0",
     "description": "AssetStudioMod, fork of Perfare's AssetStudio (.NET9 GUI variant)",
     "homepage": "https://github.com/aelurum/AssetStudio",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.19.0/AssetStudioModGUI_net9_win64.zip",
-    "hash": "acba8d024fbcb625b8f6a4cbc9e3c83e6274abb637d1a11c3c0615a9d45305af",
+    "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.20.0/AssetStudioModGUI_net9_win64.zip",
+    "hash": "8629bf20213430105466d9d64644641fb9b96ae847e5592356af146487c5311f",
     "suggest": {
         "dotnet-9-desktop-runtime": "versions/windowsdesktop-runtime-9.0"
     },
