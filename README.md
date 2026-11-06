@@ -59,6 +59,7 @@ Mod:
 
 Unique:
 
+- azaharplus: fork of `games/azahar`
 - contextmenumanager: active fork of [ContextMenuManager][ContextMenuManager]
 - eka2l1: Symbian OS/N-Gage emulator
 - hikarifield: Hikari Field Client
