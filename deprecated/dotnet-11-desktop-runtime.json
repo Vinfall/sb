@@ -1,20 +1,20 @@
 {
-    "version": "11.0.0-preview.6.26359.118",
+    "version": "11.0.0",
     "description": ".NET 11 Desktop Runtime Installer (download only)",
     "homepage": "https://dotnet.microsoft.com/en-us/download/dotnet/11.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.6.26359.118/windowsdesktop-runtime-11.0.0-preview.6.26359.118-win-x64.exe",
-            "hash": "sha512:ac4e4ec8fd3b71247587ed3ae762a2abcde0b6a78c41574379f958b81e294569bc1c22d9181d142f591e596998cb54d66a42281ebbe9cced6930467eaa2a3148"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0/windowsdesktop-runtime-11.0.0-win-x64.exe",
+            "hash": "sha512:ca20dba0c69dd6ae3932d2a42beeeecc4f4ece0be084f9921b001c8acd4ece7999df73ede76b87b6ae0d34974112ddd1c828fafad487df27c25e59e7f794c059"
         },
         "32bit": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.6.26359.118/windowsdesktop-runtime-11.0.0-preview.6.26359.118-win-x86.exe",
-            "hash": "sha512:e1b09d60a11b5b1a78ed05e5bd57041bf1f5fa86556bf5826ce2c9fc6829835f5d900a40f1c2d25ed15399bf8e1a2eb458838c01f48d7cba63b1e846194f0043"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0/windowsdesktop-runtime-11.0.0-win-x86.exe",
+            "hash": "sha512:f00eba69062f8b1c8a3eb496d4a874558282f6680af3064e495997c0ddfa7c494e6876d9fd91f5fe9245219e87268962c81182323ddd09acf4554c018d282342"
         },
         "arm64": {
-            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0-preview.6.26359.118/windowsdesktop-runtime-11.0.0-preview.6.26359.118-win-arm64.exe",
-            "hash": "sha512:797920f54835857432130787d02613b27c77e21dbee91879d0e274bf85ece5e9d32996dcc335499f5a0bad39fe3153e154592a881a37a7be7079db2b985a5228"
+            "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/11.0.0/windowsdesktop-runtime-11.0.0-win-arm64.exe",
+            "hash": "sha512:aaa9336887de6a8877a6fa992a47ce306338e0bd8c87d39b640e75a0d06c1746bd63d017646f20ea1105bc14621b2ce67d58d4e5f3f2068c9f32986b441ab429"
         }
     },
     "checkver": {

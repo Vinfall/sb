@@ -114,7 +114,7 @@ scoop install games/tsugaru
 ### dotnet-{8,9,10}-desktop-runtime
 
 > [!NOTE]
-> .NET 11 is not yet released, it would become available in versions bucket in 2026-11.
+> .NET 11 would soon become available in versions bucket.
 
 ```powershell
 scoop cache rm sb/dotnet-8-desktop-runtime sb/dotnet-9-desktop-runtime sb/dotnet-10-desktop-runtime sb/dotnet-11-desktop-runtime
