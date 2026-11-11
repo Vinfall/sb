@@ -24,6 +24,13 @@ gsudo config PathPrecedence --global True
 sudo config --enable normal
 ```
 
+## bulk-crap-uninstaller
+
+```powershell
+scoop uninstall sb/bulk-crap-uninstaller
+scoop install extras/bulk-crap-uninstaller
+```
+
 ## dosbox-x
 
 ```powershell

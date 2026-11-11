@@ -46,7 +46,6 @@ Groups:
 Mod:
 
 - assetstudiomod: aelurum's fork, original one used to be `games/assetstudio`
-- bulk-crap-uninstaller: smaller than `extras/bulk-crap-uninstaller`
 - cemu-dev: `games/cemu-dev` w/o persist
 - cromite: `extras/cromite` w/ `--incognito` and w/o persist/translate
 - chromium: `extras/chromium` w/ `--incognito` and w/o persist
@@ -89,6 +88,7 @@ Download only:
 
 Alternatives TL;DR:
 
+- bulk-crap-uninstaller: `extras/bulk-crap-uninstaller`
 - dosbox-x: `extras/dosbox-x`
 - dotnet-{8,9,10}-desktop-runtime: `versions/windowsdesktop-runtime-{8,9,10}.0`
 - eden: `games/eden`
