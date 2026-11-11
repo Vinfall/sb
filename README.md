@@ -90,7 +90,7 @@ Download only:
 Alternatives TL;DR:
 
 - dosbox-x: `extras/dosbox-x`
-- dotnet-{8,9,10}-desktop-runtime: `versions/windowsdesktop-runtime-{8,9,10}.0`
+- dotnet-{8,9,10,11}-desktop-runtime: `versions/windowsdesktop-runtime-{8,9,10,11}.0`
 - eden: `games/eden`
 - gdsdecomp: `games/gdsdecomp`
 - locale-remulator: `extras/locale-remulator`
